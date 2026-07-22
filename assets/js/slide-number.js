@@ -2,23 +2,23 @@
     'use strict';
 
     function getSlideTitle(slide, index) {
-        const heading = slide.querySelector('h1, h2, h3');
+        const heading = slide.querySelector('h1, h2, h3, h4');
         if (heading && heading.textContent.trim()) {
             const text = heading.textContent.trim();
             return text.length > 36 ? text.slice(0, 34) + '…' : text;
         }
-        return 'Chapter ' + (index + 1);
+        return 'Slide ' + (index + 1);
     }
 
     function init() {
         const slides = Array.from(document.querySelectorAll('.slide'));
-        if (slides.length <= 1) return;
+        if (slides.length === 0) return;
 
         const slideTitles = slides.map((slide, i) => getSlideTitle(slide, i));
 
         const badge = document.createElement('div');
         badge.className = 'sn-badge';
-        badge.innerHTML = `<span class="sn-badge__label" id="sn-badge-text">Chapter 1 of ${slides.length}</span> <span class="sn-badge__caret">&#9662;</span>`;
+        badge.innerHTML = `<span class="sn-badge__label" id="sn-badge-text">Slide 1 of ${slides.length}</span> <span class="sn-badge__caret">&#9662;</span>`;
 
         const dropdown = document.createElement('div');
         dropdown.className = 'sn-dropdown';
@@ -50,7 +50,7 @@
             badge.classList.remove('sn-badge--open');
         });
 
-        // IntersectionObserver to update badge active chapter
+        // Observer for Active Slide Badge Update
         const container = document.querySelector('.slide-container');
         if (container) {
             const observer = new IntersectionObserver((entries) => {
@@ -59,7 +59,7 @@
                         const index = slides.indexOf(entry.target);
                         if (index !== -1) {
                             const badgeText = document.getElementById('sn-badge-text');
-                            if (badgeText) badgeText.textContent = `Chapter ${index + 1} of ${slides.length}`;
+                            if (badgeText) badgeText.textContent = `Slide ${index + 1} of ${slides.length}`;
 
                             const items = dropdown.querySelectorAll('.sn-dropdown__item');
                             items.forEach((it, i) => {

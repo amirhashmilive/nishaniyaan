@@ -13,7 +13,6 @@
     --accent-cg: #0d6efd;
     --accent-jh: #d97706;
     --accent-gold: #c59b27;
-    --accent-gold-glow: rgba(197, 155, 39, 0.3);
     --neon-glow: 0 0 15px rgba(13, 110, 253, 0.25);
     --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
     --nav-bg: rgba(255, 255, 255, 0.85);
@@ -39,7 +38,6 @@
     --accent-cg: #38bdf8;
     --accent-jh: #f97316;
     --accent-gold: #f59e0b;
-    --accent-gold-glow: rgba(245, 158, 11, 0.35);
     --neon-glow: 0 0 25px rgba(56, 189, 248, 0.4);
     --card-shadow: 0 12px 35px rgba(0, 0, 0, 0.55);
     --nav-bg: rgba(9, 12, 21, 0.85);
@@ -51,7 +49,7 @@
     --table-hover-bg: rgba(255, 255, 255, 0.04);
 }
 
-/* ── 2. Reset & Typography Base ───────────────────────────────────────── */
+/* ── 2. Reset & Core Base ────────────────────────────────────────────── */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -93,7 +91,96 @@ a:hover { color: var(--accent-jh); }
     margin: 0.5rem 0;
 }
 
-/* ── 3. FULL-VIEWPORT SCROLL-SNAP PRESENTATION CANVAS ────────────────── */
+/* ── 3. TOP-CENTER CHAPTER NAVIGATION MENU ────────────────────────────── */
+.chap-nav {
+    position: fixed;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    background: var(--nav-bg);
+    border: 1px solid var(--bg-glass-border);
+    border-radius: 30px;
+    padding: 6px 18px;
+    display: flex;
+    gap: 12px;
+    box-shadow: var(--card-shadow);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    align-items: center;
+    max-width: 95vw;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.chap-nav::-webkit-scrollbar { display: none; }
+
+.chap-nav a {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 16px;
+    transition: all 0.25s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.chap-nav a:hover, .chap-nav a.active {
+    color: var(--text-main);
+    background: var(--bg-glass-border);
+}
+
+.chap-nav a.active {
+    color: var(--accent-gold);
+    font-weight: 700;
+    border-bottom: 2px solid var(--accent-gold);
+}
+
+.chap-nav-sep { color: var(--bg-glass-border); }
+
+/* Top Nav Controls (Search & Theme Toggle) */
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 8px;
+}
+
+.search-trigger-btn {
+    background: var(--bg-glass);
+    border: 1px solid var(--bg-glass-border);
+    color: var(--text-main);
+    border-radius: 16px;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+}
+
+.search-trigger-btn:hover { background: var(--accent-cg); color: #fff; }
+
+.theme-toggle {
+    background: var(--bg-glass);
+    border: 1px solid var(--bg-glass-border);
+    color: var(--text-main);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover { transform: rotate(25deg); }
+
+/* ── 4. FULL-VIEWPORT SCROLL-SNAP PRESENTATION CANVAS ────────────────── */
 .slide-container {
     height: 100vh;
     width: 100%;
@@ -114,7 +201,7 @@ a:hover { color: var(--accent-jh); }
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3rem 2rem;
+    padding: 4rem 2rem;
     position: relative;
     overflow: visible;
 }
@@ -148,7 +235,34 @@ a:hover { color: var(--accent-jh); }
     margin-bottom: 0.6rem;
 }
 
-/* ── 4. PRESENTATION FLOATING SLIDE BADGE & JUMP MENU ────────────────── */
+/* ── 5. RIGHT-SIDE PROGRESS DOTS ─────────────────────────────────────── */
+.progress-dots {
+    position: fixed;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 999;
+}
+
+.progress-dots .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--bg-glass-border);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.progress-dots .dot.active {
+    background: var(--accent-cg);
+    transform: scale(1.4);
+    box-shadow: 0 0 10px var(--accent-cg);
+}
+
+/* ── 6. BOTTOM-RIGHT SLIDE NUMBER BADGE & DROPDOWN ───────────────────── */
 .sn-badge {
     position: fixed;
     bottom: 1.5rem;
@@ -159,29 +273,25 @@ a:hover { color: var(--accent-jh); }
     -webkit-backdrop-filter: blur(14px);
     border: 1px solid var(--bg-glass-border);
     border-radius: 24px;
-    padding: 8px 16px;
-    font-size: 0.85rem;
+    padding: 6px 14px;
+    font-size: 0.82rem;
     font-weight: 700;
     cursor: pointer;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
     box-shadow: var(--card-shadow);
     color: var(--text-main);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.sn-badge:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--neon-glow);
-}
+.sn-badge:hover { transform: translateY(-2px); box-shadow: var(--neon-glow); }
 
 .sn-dropdown {
     position: absolute;
     bottom: 110%;
     right: 0;
-    width: 280px;
-    max-height: 380px;
+    width: 260px;
+    max-height: 360px;
     overflow-y: auto;
     background: var(--popup-bg);
     border: 1px solid var(--bg-glass-border);
@@ -194,9 +304,7 @@ a:hover { color: var(--accent-jh); }
     z-index: 1000;
 }
 
-.sn-badge--open .sn-dropdown {
-    display: flex;
-}
+.sn-badge--open .sn-dropdown { display: flex; }
 
 .sn-dropdown__item {
     background: transparent;
@@ -209,8 +317,7 @@ a:hover { color: var(--accent-jh); }
     cursor: pointer;
     display: flex;
     align-items: center;
-    gap: 10px;
-    transition: background 0.2s ease;
+    gap: 8px;
 }
 
 .sn-dropdown__item:hover, .sn-dropdown__item--active {
@@ -218,78 +325,18 @@ a:hover { color: var(--accent-jh); }
     color: var(--accent-cg);
 }
 
-.sn-dropdown__num {
-    font-weight: 800;
-    color: var(--accent-gold);
-    min-width: 20px;
-}
+.sn-dropdown__num { font-weight: 800; color: var(--accent-gold); min-width: 18px; }
 
-.sn-dropdown__title {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-/* Floating Presentation Controls Pill (Top Right) */
-.presentation-top-pill {
-    position: fixed;
-    top: 1.2rem;
-    right: 2rem;
-    z-index: 999;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    background: var(--bg-glass);
-    backdrop-filter: blur(12px);
-    border: 1px solid var(--bg-glass-border);
-    padding: 6px 14px;
-    border-radius: 24px;
-    box-shadow: var(--card-shadow);
-}
-
-.theme-toggle {
-    background: transparent;
-    border: none;
-    color: var(--text-main);
-    font-size: 1.1rem;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.theme-toggle:hover { transform: rotate(25deg); }
-
-.search-trigger-btn {
-    background: var(--bg-glass-border);
-    border: none;
-    color: var(--text-main);
-    border-radius: 16px;
-    padding: 4px 12px;
-    font-size: 0.82rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-weight: 600;
-}
-
-.search-trigger-btn:hover {
-    background: var(--accent-cg);
-    color: #fff;
-}
-
-/* ── 5. GLASSMORPHISM CARD SYSTEM ────────────────────────────────────── */
+/* ── 7. GLASSMORPHISM CARDS & 1.5x HOVER MAGNIFICATION ───────────────── */
 .glass-card {
     background: var(--bg-glass);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border: 1px solid var(--bg-glass-border);
-    border-radius: 20px;
+    border-radius: 16px;
     padding: 1.8rem;
     box-shadow: var(--card-shadow);
-    transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+    transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, border-color 0.25s ease;
     position: relative;
 }
 
@@ -303,8 +350,23 @@ a:hover { color: var(--accent-jh); }
     background: linear-gradient(135deg, var(--bg-glass) 0%, rgba(197, 155, 39, 0.05) 100%);
 }
 
-.glass-card--hadith {
-    border-left: 4px solid var(--accent-cg);
+.glass-card--hadith { border-left: 4px solid var(--accent-cg); }
+
+/* 1.5x Hover Scale Protocol with 400px Safeguard */
+.hover-magnify {
+    transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, z-index 0.25s ease !important;
+    z-index: 1;
+}
+
+.hover-magnify:hover {
+    transform: scale(1.5) translateY(0) !important;
+    z-index: 100 !important;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.6) !important;
+}
+
+/* Reduced scale for wide layout cards (> 400px) */
+.hover-magnify.hover-magnify-lg:hover {
+    transform: scale(1.02) translateY(0) !important;
 }
 
 /* Resource Cards */
@@ -314,13 +376,13 @@ a:hover { color: var(--accent-jh); }
     transition: transform 0.3s ease;
     text-decoration: none;
     display: block;
-    border-radius: 20px;
+    border-radius: 16px;
 }
 
 .resource-glow {
     position: absolute;
     inset: 0;
-    border-radius: 24px;
+    border-radius: 20px;
     opacity: 0.4;
     filter: blur(25px);
     transition: opacity 0.3s ease;
@@ -338,11 +400,11 @@ a:hover { color: var(--accent-jh); }
     z-index: 1;
     background: var(--resource-card-bg);
     border: 1px solid var(--resource-card-border);
-    border-radius: 20px;
+    border-radius: 16px;
     padding: 1.5rem;
 }
 
-/* ── 6. VERIFICATION BADGES SYSTEM ───────────────────────────────────── */
+/* ── 8. VERIFICATION BADGES SYSTEM (9 LEVELS) ────────────────────────── */
 .badge {
     display: inline-flex;
     align-items: center;
@@ -365,50 +427,10 @@ a:hover { color: var(--accent-jh); }
 .badge-observation     { background: rgba(168, 85, 247, 0.15); color: #a855f7; border: 1px solid rgba(168, 85, 247, 0.3); }
 .badge-unverified      { background: rgba(71, 85, 105, 0.2);   color: #94a3b8; border: 1px solid rgba(71, 85, 105, 0.3); }
 
-/* ── 7. LAYOUT RESPONSIVE GRIDS ───────────────────────────────────────── */
+/* ── 9. RESPONSIVE LAYOUT GRIDS ──────────────────────────────────────── */
 .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
 .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
 .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
-
-/* ── 8. INTERACTIVE CARD MAGNIFICATION SAFEGUARD ─────────────────────── */
-.hover-magnify {
-    transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, z-index 0.25s ease !important;
-    z-index: 1;
-}
-
-.hover-magnify:hover {
-    transform: scale(1.04) translateY(-3px) !important;
-    z-index: 20 !important;
-}
-
-.hover-magnify-lg:hover {
-    transform: scale(1.02) translateY(-2px) !important;
-}
-
-/* ── 9. TIMELINE TRACK ───────────────────────────────────────────────── */
-.timeline-track {
-    position: relative;
-    padding-left: 2.5rem;
-    border-left: 3px solid var(--bg-glass-border);
-    margin: 1.5rem 0;
-}
-
-.timeline-node {
-    position: relative;
-    margin-bottom: 1.5rem;
-}
-
-.timeline-dot {
-    position: absolute;
-    left: -3.1rem;
-    top: 1rem;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: var(--bg-primary);
-    border: 3px solid var(--accent-cg);
-    box-shadow: 0 0 10px var(--accent-cg);
-}
 
 /* ── 10. MODAL SEARCH OVERLAY ────────────────────────────────────────── */
 .search-modal-overlay {
@@ -425,9 +447,7 @@ a:hover { color: var(--accent-jh); }
     transition: opacity 0.3s ease;
 }
 
-.search-modal-overlay.active {
-    opacity: 1; pointer-events: auto;
-}
+.search-modal-overlay.active { opacity: 1; pointer-events: auto; }
 
 .search-modal-box {
     background: var(--popup-bg);
@@ -457,10 +477,7 @@ a:hover { color: var(--accent-jh); }
     font-family: var(--font-primary);
 }
 
-.search-results-list {
-    max-height: 420px;
-    overflow-y: auto;
-}
+.search-results-list { max-height: 420px; overflow-y: auto; }
 
 .search-result-item {
     padding: 12px 16px;
@@ -472,10 +489,7 @@ a:hover { color: var(--accent-jh); }
     transition: background 0.2s ease;
 }
 
-.search-result-item:hover {
-    background: var(--table-hover-bg);
-    border-color: var(--accent-cg);
-}
+.search-result-item:hover { background: var(--table-hover-bg); border-color: var(--accent-cg); }
 
 /* ── 11. RESPONSIVE BREAKPOINTS ─────────────────────────────────────── */
 @media (max-width: 1024px) {
@@ -488,7 +502,7 @@ a:hover { color: var(--accent-jh); }
     .slide-title { font-size: 1.5rem !important; }
     .grid-2, .grid-3, .grid-4 { display: flex !important; flex-direction: column !important; }
     .arabic-text { font-size: 1.3rem; }
+    .progress-dots { display: none !important; }
     .hover-magnify:hover { transform: scale(1.02) translateY(0) !important; }
-    .presentation-top-pill { right: 1rem; top: 0.8rem; }
     .sn-badge { right: 1rem; bottom: 1rem; }
 }

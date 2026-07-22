@@ -3,428 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nishaniyaan (نشانیاں) | Presentation Archive — Signs of the Day of Judgment</title>
-    <meta name="description" content="Nishaniyaan is a presentation-style scholarly reference platform cataloging and contextualizing the Signs of the Day of Judgment with verified Qur'anic and Hadith evidences.">
+    <title>Nishaniyaan (نشانیاں) | Academic Thesis Presentation</title>
+    <meta name="description" content="Nishaniyaan - Academic thesis presentation on the Signs of the Day of Judgment (Ashrat as-Sa'ah).">
     
-    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/timeline.css">
-    <!-- Chart.js CDN -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
 <body>
 
-    <!-- Floating Presentation Control Bar (Top Right) -->
-    <div class="presentation-top-pill">
-        <button class="search-trigger-btn"><i class="fas fa-search"></i> Search <span style="font-size: 0.7rem; opacity: 0.8;">Ctrl+K</span></button>
-        <button class="theme-toggle" title="Toggle Dark/Light Mode"><i class="fas fa-sun"></i></button>
-    </div>
+    <!-- Top-Center Floating Chapter Navigation -->
+    <nav class="chap-nav">
+        <a href="index.html" class="active" title="Homepage"><i class="fas fa-home"></i></a>
+        <span class="chap-nav-sep">|</span>
+        <a href="chapter-01.html">Ch 01</a>
+        <a href="chapter-02.html">Ch 02</a>
+        <a href="chapter-03.html">Ch 03</a>
+        <a href="chapter-04.html">Ch 04</a>
+        <a href="chapter-05.html">Ch 05</a>
+        <a href="chapter-06.html">Ch 06</a>
+        <a href="chapter-07.html">Ch 07</a>
+        <a href="chapter-08.html">Ch 08</a>
+        <a href="chapter-09.html">Ch 09</a>
+        <a href="chapter-10.html">Ch 10</a>
+        <span class="chap-nav-sep">|</span>
+        <a href="bibliography.html">Bibliography</a>
 
-    <!-- MAIN SINGLE-PAGE PRESENTATION CANVAS -->
+        <div class="nav-actions">
+            <button class="search-trigger-btn"><i class="fas fa-search"></i> Search</button>
+            <button class="theme-toggle"><i class="fas fa-sun"></i></button>
+        </div>
+    </nav>
+
+    <!-- Main Presentation Container -->
     <div class="slide-container">
-
-        <!-- SLIDE 1: TITLE & INTRODUCTION -->
-        <section class="slide" id="slide-1">
+        
+        <!-- Slide 1: Thesis Structure Overview -->
+        <section class="slide" data-slide="1" id="slide-1">
             <div class="slide-content">
-                <div class="glass-card glow-breathe" style="text-align: center; padding: 3.5rem 2rem;">
-                    <div class="arabic-text" style="font-size: 2.8rem; margin-bottom: 0.5rem; text-shadow: 0 0 20px rgba(197, 155, 39, 0.4);">
+                <div class="section-header">
+                    <div class="arabic-text" style="font-size: 2.2rem; text-align: center; margin-bottom: 0.3rem;">
                         بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ
                     </div>
-                    <h1 class="slide-title" style="font-size: 3.2rem; margin-bottom: 0.5rem;">Nishaniyaan — نشانیاں</h1>
-                    <p class="slide-subtitle" style="font-size: 1.05rem; color: var(--text-muted); max-width: 800px; margin: 0 auto 1.8rem auto;">
-                        An Immersive Scholarly Presentation on the Signs of the Day of Judgment (*Ashrat as-Sa'ah*). Grounded in the Noble Qur'an, authentic Sunnah, and classical scholarship.
+                    <span class="slide-subtitle">Academic Thesis Presentation</span>
+                    <h1 class="slide-title" style="font-size: 2.8rem;">Nishaniyaan — نشانیاں</h1>
+                    <p style="color: var(--text-muted); max-width: 750px; margin: 0 auto 1.5rem auto;">
+                        An Eschatological Knowledge Archive on the Signs of the Hour (*Ashrat as-Sa'ah*). Click any chapter card to open its presentation slides.
                     </p>
-                    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-                        <button onclick="document.getElementById('slide-3').scrollIntoView({behavior:'smooth'})" class="glass-card hover-magnify" style="padding: 10px 24px; border-color: var(--accent-cg); font-weight: 600; cursor: pointer;">
-                            <i class="fas fa-stream"></i> Start Presentation
-                        </button>
-                        <button onclick="document.getElementById('slide-7').scrollIntoView({behavior:'smooth'})" class="glass-card hover-magnify" style="padding: 10px 24px; border-color: var(--accent-gold); font-weight: 600; cursor: pointer;">
-                            <i class="fas fa-layer-group"></i> Major Signs Overview
-                        </button>
-                        <button class="search-trigger-btn" style="padding: 10px 24px; border-radius: 12px; font-size: 0.95rem;">
-                            <i class="fas fa-search"></i> Open Search
-                        </button>
-                    </div>
-                    <div style="margin-top: 2rem; font-size: 0.82rem; color: var(--text-muted);">
-                        Use <kbd>↑</kbd> <kbd>↓</kbd> Arrow Keys, <kbd>PageUp</kbd> <kbd>PageDown</kbd>, or Number Keys <kbd>1</kbd>-<kbd>9</kbd> to navigate slides.
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- SLIDE 2: CORE METHODOLOGY & VERIFICATION BADGES -->
-        <section class="slide" id="slide-2">
-            <div class="slide-content">
-                <div class="section-header">
-                    <span class="slide-subtitle">Scholarly Standards</span>
-                    <h2 class="slide-title">Verification Levels & Attribution Code</h2>
-                </div>
-                <div class="grid-3" style="margin-bottom: 1.5rem;">
-                    <div class="glass-card hover-magnify" style="border-left: 4px solid var(--success-color);">
-                        <span class="badge badge-authentic-quran" style="margin-bottom: 0.5rem;">🟢 Authentic (Qur'an)</span>
-                        <h3>Qur'anic Explicit Text</h3>
-                        <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 0.4rem;">Highest authority. Explicit divine verses concerning end times, judgment, and resurrection.</p>
-                    </div>
-                    <div class="glass-card hover-magnify" style="border-left: 4px solid var(--success-color);">
-                        <span class="badge badge-sahih" style="margin-bottom: 0.5rem;">🟢 Sahih Hadith</span>
-                        <h3>Authentic Sunnah</h3>
-                        <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 0.4rem;">Uninterrupted chain of trustworthy narrators (Bukhari, Muslim, and verified Sunan).</p>
-                    </div>
-                    <div class="glass-card hover-magnify" style="border-left: 4px solid var(--warning-color);">
-                        <span class="badge badge-hasan" style="margin-bottom: 0.5rem;">🟡 Hasan Hadith</span>
-                        <h3>Acceptable Prophetic Reports</h3>
-                        <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 0.4rem;">Good chain of transmission accepted for secondary support and context.</p>
-                    </div>
                 </div>
 
-                <div class="grid-3">
-                    <div class="glass-card hover-magnify">
-                        <span class="badge badge-scholarly" style="margin-bottom: 0.5rem;">⚪ Scholarly Opinion</span>
-                        <h3>Classical Exegesis</h3>
-                        <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 0.4rem;">Interpretations from classical scholars like Ibn Kathir, Al-Qurtubi, and Ibn Hajar.</p>
-                    </div>
-                    <div class="glass-card hover-magnify">
-                        <span class="badge badge-observation" style="margin-bottom: 0.5rem;">🟣 Contemporary Observation</span>
-                        <h3>Modern Phenomena</h3>
-                        <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 0.4rem;">Observed technological/social trends—never declared as definitive prophecy fulfillment.</p>
-                    </div>
-                    <div class="glass-card hover-magnify" style="border-left: 4px solid #ef4444;">
-                        <span class="badge badge-unverified" style="margin-bottom: 0.5rem;">⚫ Unverified Report</span>
-                        <h3>Quarantined Rumors</h3>
-                        <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 0.4rem;">Weak/fabricated claims isolated in warning section to protect scholarly integrity.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- SLIDE 3: INTERACTIVE PROPHETIC TIMELINE -->
-        <section class="slide" id="slide-3">
-            <div class="slide-content">
-                <div class="section-header">
-                    <span class="slide-subtitle">Cosmic Chronology</span>
-                    <h2 class="slide-title">Interactive Prophetic Timeline</h2>
-                </div>
-                <div class="timeline-track">
-                    <div class="timeline-node active">
-                        <div class="timeline-dot"></div>
-                        <div class="glass-card hover-magnify">
-                            <span class="badge badge-authentic-quran" style="margin-bottom: 0.4rem;">Era 01 — Creation</span>
-                            <h3>Creation of the Pen, Throne, & Adam (AS)</h3>
-                            <p style="font-size: 0.88rem; color: var(--text-muted);">The decree written 50,000 years prior to creation of the universe.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-node active">
-                        <div class="timeline-dot"></div>
-                        <div class="glass-card hover-magnify">
-                            <span class="badge badge-sahih" style="margin-bottom: 0.4rem;">Era 02 — Final Prophethood</span>
-                            <h3>Advent & Demise of Prophet Muhammad ﷺ</h3>
-                            <div class="arabic-text" style="font-size: 1.1rem; line-height: 1.6;">اقْتَرَبَتِ السَّاعَةُ وَانشَقَّ الْقَمَرُ</div>
-                            <p style="font-size: 0.88rem; color: var(--text-muted);">The moon splitting and completion of divine revelation.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-node active">
-                        <div class="timeline-dot"></div>
-                        <div class="glass-card hover-magnify" data-popup="minor-signs-count">
-                            <span class="badge badge-observation" style="margin-bottom: 0.4rem;">Era 03 — Present Era</span>
-                            <h3>Fulfillment of Social & Technological Minor Signs</h3>
-                            <p style="font-size: 0.88rem; color: var(--text-muted);">Tall buildings, rapid time perception, telecommunications, environmental revertment.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-node">
-                        <div class="timeline-dot" style="border-color: var(--accent-jh);"></div>
-                        <div class="glass-card hover-magnify" data-popup="major-signs-sequence">
-                            <span class="badge badge-hasan" style="margin-bottom: 0.4rem;">Era 04 — Upcoming Major Signs</span>
-                            <h3>The 10 Great Signs & Destruction of the World</h3>
-                            <p style="font-size: 0.88rem; color: var(--text-muted);">Dajjal, Mahdi, Isa (AS), Yajuj & Majuj, Smoke, Beast, Sun from West, Horn Blasts.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- SLIDE 4: QUR'ANIC FOUNDATIONS & TAFSIR -->
-        <section class="slide" id="slide-4">
-            <div class="slide-content">
-                <div class="section-header">
-                    <span class="slide-subtitle">Highest Divine Authority</span>
-                    <h2 class="slide-title">Qur'anic Revelations & Tafsir</h2>
-                </div>
-                <div class="grid-2">
-                    <div class="glass-card glass-card--quran hover-magnify">
-                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem;">
-                            <span class="badge badge-authentic-quran">Surah Al-Qamar (54:1-2)</span>
-                            <span style="font-size: 0.8rem; color: var(--text-muted);">Meccan Surah</span>
-                        </div>
-                        <div class="arabic-text">
-                            اقْتَرَبَتِ السَّاعَةُ وَانشَقَّ الْقَمَرُ ﴿١﴾ وَإِن يَرَوْا آيَةً يُعْرِضُوا وَيَقُولُوا سِحْرٌ مُّسْتَمِرٌّ ﴿٢﴾
-                        </div>
-                        <p style="color: var(--text-main); font-weight: 500; font-size: 0.95rem; margin-top: 0.6rem;">
-                            "The Hour has drawn near, and the moon has been split..."
-                        </p>
-                        <div style="margin-top: 0.8rem; background: var(--bg-glass-border); padding: 10px 14px; border-radius: 12px;">
-                            <strong style="font-size: 0.82rem; color: var(--accent-gold);">Tafsir Ibn Kathir:</strong>
-                            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 3px;">Occurred during the lifetime of Prophet Muhammad ﷺ as a miraculous sign over Mount Abu Qubays.</p>
-                        </div>
-                    </div>
-
-                    <div class="glass-card glass-card--quran hover-magnify">
-                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem;">
-                            <span class="badge badge-authentic-quran">Surah Al-Anbiya (21:96-97)</span>
-                            <span style="font-size: 0.8rem; color: var(--text-muted);">Major Sign Reference</span>
-                        </div>
-                        <div class="arabic-text">
-                            حَتَّىٰ إِذَا فُتِحَتْ يَأْجُوجُ وَمَأْجُوجُ وَهُم مِّن كُلِّ حَدَبٍ يَنسِلُونَ ﴿٩٦﴾
-                        </div>
-                        <p style="color: var(--text-main); font-weight: 500; font-size: 0.95rem; margin-top: 0.6rem;">
-                            "Until when Gog and Magog are let loose, and they swiftly swarm down from every elevation..."
-                        </p>
-                        <div style="margin-top: 0.8rem; background: var(--bg-glass-border); padding: 10px 14px; border-radius: 12px;">
-                            <strong style="font-size: 0.82rem; color: var(--accent-gold);">Cross-Reference:</strong>
-                            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 3px;">Linked to Major Sign #04 and the wall built by Dhul-Qarnayn.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- SLIDE 5: AUTHENTIC HADITH COLLECTIONS -->
-        <section class="slide" id="slide-5">
-            <div class="slide-content">
-                <div class="section-header">
-                    <span class="slide-subtitle">Prophetic Traditions</span>
-                    <h2 class="slide-title">Canonical Hadith Archive</h2>
-                </div>
-                <div class="grid-2">
-                    <div class="glass-card glass-card--hadith hover-magnify" data-popup="sahih-bukhari">
-                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem;">
-                            <span class="badge badge-sahih"><i class="fas fa-check-circle"></i> Sahih al-Bukhari #4936</span>
-                            <span style="font-size: 0.8rem; color: var(--text-muted);">Agreed Upon</span>
-                        </div>
-                        <div class="arabic-text">بُعِثْتُ أَنَا وَالسَّاعَةَ كَهَاتَيْنِ</div>
-                        <p style="color: var(--text-main); font-weight: 500; font-size: 0.95rem;">
-                            "I have been sent and the Hour is like these two," holding up his index and middle fingers together.
-                        </p>
-                    </div>
-
-                    <div class="glass-card glass-card--hadith hover-magnify">
-                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem;">
-                            <span class="badge badge-sahih"><i class="fas fa-check-circle"></i> Sahih Muslim #2937</span>
-                            <span style="font-size: 0.8rem; color: var(--text-muted);">Kitab al-Fitan</span>
-                        </div>
-                        <div class="arabic-text">مَا بَيْنَ خَلْقِ آدَمَ إِلَى قِيَامِ السَّاعَةِ خَلْقٌ أَكْبَرُ مِنَ الدَّجَّالِ</div>
-                        <p style="color: var(--text-main); font-weight: 500; font-size: 0.95rem;">
-                            "There is no creation between the creation of Adam and the onset of the Hour greater than Dajjal."
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- SLIDE 6: MINOR SIGNS KNOWLEDGEBASE -->
-        <section class="slide" id="slide-6">
-            <div class="slide-content">
-                <div class="section-header">
-                    <span class="slide-subtitle">Categorized Insights</span>
-                    <h2 class="slide-title">Minor Signs Directory</h2>
-                </div>
-                <div class="grid-4" style="margin-bottom: 1.5rem;">
-                    <div class="glass-card hover-magnify" style="text-align: center; padding: 1.2rem;">
-                        <i class="fas fa-graduation-cap" style="font-size: 1.8rem; color: var(--accent-cg); margin-bottom: 0.4rem;"></i>
-                        <h4 style="font-size: 1rem;">Faith & Knowledge</h4>
-                        <p style="font-size: 0.8rem; color: var(--text-muted);">Loss of scholars, spread of ignorance.</p>
-                    </div>
-                    <div class="glass-card hover-magnify" style="text-align: center; padding: 1.2rem;">
-                        <i class="fas fa-city" style="font-size: 1.8rem; color: var(--accent-gold); margin-bottom: 0.4rem;"></i>
-                        <h4 style="font-size: 1rem;">Buildings & Economy</h4>
-                        <p style="font-size: 0.8rem; color: var(--text-muted);">Competition in tall skyscrapers & riba.</p>
-                    </div>
-                    <div class="glass-card hover-magnify" style="text-align: center; padding: 1.2rem;">
-                        <i class="fas fa-clock" style="font-size: 1.8rem; color: var(--accent-jh); margin-bottom: 0.4rem;"></i>
-                        <h4 style="font-size: 1rem;">Time & Distance</h4>
-                        <p style="font-size: 0.8rem; color: var(--text-muted);">Rapid passage of time & markets drawing close.</p>
-                    </div>
-                    <div class="glass-card hover-magnify" style="text-align: center; padding: 1.2rem;">
-                        <i class="fas fa-seedling" style="font-size: 1.8rem; color: var(--success-color); margin-bottom: 0.4rem;"></i>
-                        <h4 style="font-size: 1rem;">Environment</h4>
-                        <p style="font-size: 0.8rem; color: var(--text-muted);">Arabia returning to rivers & meadows.</p>
-                    </div>
-                </div>
-
-                <div class="grid-2">
-                    <div class="glass-card hover-magnify" data-popup="minor-signs-count">
-                        <span class="badge badge-sahih" style="margin-bottom: 0.4rem;">SIGN-MIN-024</span>
-                        <h3>The Rapid Passage of Time (*Taqarub al-Zaman*)</h3>
-                        <p style="font-size: 0.88rem; color: var(--text-muted);">Years passing like months and weeks passing like days. Linked with modern communication speed.</p>
-                    </div>
-                    <div class="glass-card hover-magnify">
-                        <span class="badge badge-sahih" style="margin-bottom: 0.4rem;">SIGN-MIN-045</span>
-                        <h3>Competition in Lofty Towers</h3>
-                        <p style="font-size: 0.88rem; color: var(--text-muted);">Destitute desert dwellers competing in erecting tall architectural monuments.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- SLIDE 7: THE 10 MAJOR SIGNS (AL-AYAT AL-KUBRA) -->
-        <section class="slide" id="slide-7">
-            <div class="slide-content">
-                <div class="section-header">
-                    <span class="slide-subtitle">Al-Ayat al-Kubra</span>
-                    <h2 class="slide-title">The 10 Major Signs of Qiyamah</h2>
-                </div>
-                <div class="grid-3" style="margin-bottom: 1rem;">
-                    <div class="glass-card hover-magnify" style="border-left: 4px solid var(--accent-jh);">
-                        <span class="badge badge-sahih" style="margin-bottom: 0.4rem;">Sign 01</span>
-                        <h4>Al-Masih ad-Dajjal</h4>
-                        <p style="font-size: 0.82rem; color: var(--text-muted);">The False Messiah and greatest trial in human history.</p>
-                    </div>
-                    <div class="glass-card hover-magnify" style="border-left: 4px solid var(--accent-gold);">
-                        <span class="badge badge-sahih" style="margin-bottom: 0.4rem;">Sign 02</span>
-                        <h4>Imam Al-Mahdi</h4>
-                        <p style="font-size: 0.82rem; color: var(--text-muted);">Righteous leader from the Prophet's lineage filling earth with justice.</p>
-                    </div>
-                    <div class="glass-card hover-magnify" style="border-left: 4px solid var(--accent-cg);">
-                        <span class="badge badge-authentic-quran" style="margin-bottom: 0.4rem;">Sign 03</span>
-                        <h4>Descent of Isa (AS)</h4>
-                        <p style="font-size: 0.82rem; color: var(--text-muted);">Descent at Damascus white minaret to defeat Dajjal at Gate of Ludd.</p>
-                    </div>
-                </div>
-
-                <div class="grid-4">
-                    <div class="glass-card hover-magnify" style="padding: 1.2rem;">
-                        <span class="badge badge-authentic-quran" style="margin-bottom: 0.3rem;">Sign 04</span>
-                        <h5>Yajuj & Majuj</h5>
-                        <p style="font-size: 0.78rem; color: var(--text-muted);">Swarming forth of Gog and Magog.</p>
-                    </div>
-                    <div class="glass-card hover-magnify" style="padding: 1.2rem;">
-                        <span class="badge badge-authentic-quran" style="margin-bottom: 0.3rem;">Sign 05</span>
-                        <h5>The Smoke</h5>
-                        <p style="font-size: 0.78rem; color: var(--text-muted);">Haze covering earth for 40 days.</p>
-                    </div>
-                    <div class="glass-card hover-magnify" style="padding: 1.2rem;">
-                        <span class="badge badge-authentic-quran" style="margin-bottom: 0.3rem;">Sign 06</span>
-                        <h5>Beast of Earth</h5>
-                        <p style="font-size: 0.78rem; color: var(--text-muted);">Emerging creature marking faces.</p>
-                    </div>
-                    <div class="glass-card hover-magnify" style="padding: 1.2rem;">
-                        <span class="badge badge-sahih" style="margin-bottom: 0.3rem;">Signs 07-10</span>
-                        <h5>Sun West & Horn</h5>
-                        <p style="font-size: 0.78rem; color: var(--text-muted);">Landslides, Sun West, Fire & Horn.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- SLIDE 8: HISTORICAL EVENTS & OBSERVATIONS -->
-        <section class="slide" id="slide-8">
-            <div class="slide-content">
-                <div class="section-header">
-                    <span class="slide-subtitle">Contextual Verification</span>
-                    <h2 class="slide-title">Historical Events & Modern Observations</h2>
-                </div>
-                <div class="grid-2">
-                    <div class="glass-card hover-magnify">
-                        <span class="badge badge-historical" style="margin-bottom: 0.4rem;">Historical Event — 654 AH</span>
-                        <h3>The Fire of the Hijaz (Near Madinah)</h3>
-                        <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 0.4rem;">
-                            Documented by Imam Al-Qurtubi and An-Nawawi: Volcanic eruption in Madinah lit skies illuminating camels in Busra (Syria), fulfilling Sahih Bukhari #7118.
-                        </p>
-                    </div>
-                    <div class="glass-card hover-magnify">
-                        <span class="badge badge-observation" style="margin-bottom: 0.4rem;">Contemporary Observation</span>
-                        <h3>Global Telecommunications Expansion</h3>
-                        <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 0.4rem;">
-                            Scholars note that modern instant voice and video broadcasting fulfill observational criteria for distance-collapsing communications.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- SLIDE 9: ACADEMIC LIBRARY & LITERATURE -->
-        <section class="slide" id="slide-9">
-            <div class="slide-content">
-                <div class="section-header">
-                    <span class="slide-subtitle">Academic Literature</span>
-                    <h2 class="slide-title">Classical Books & Research</h2>
-                </div>
-                <div class="grid-3">
-                    <a href="#" class="resource-card hover-magnify" data-gradient="gold">
-                        <div class="resource-glow"></div>
-                        <div class="resource-content">
-                            <span class="badge badge-scholarly" style="margin-bottom: 0.5rem;">Classical Book</span>
-                            <h3 style="font-size: 1.1rem; color: var(--text-main);">Al-Tadhkirah bi-Ahwal al-Mawta</h3>
-                            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem;">By Imam Abu Abdillah Al-Qurtubi (d. 671 AH)</p>
-                        </div>
+                <div class="grid-3" style="row-gap: 1.2rem;">
+                    <a href="chapter-01.html" class="glass-card hover-magnify" style="display: block;">
+                        <span class="badge badge-scholarly" style="margin-bottom: 0.4rem;">CHAPTER 01</span>
+                        <h3 style="font-size: 1.15rem; color: var(--text-main);">Introduction & Scope</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem;">Methodology, core philosophy, and 9-level verification system.</p>
                     </a>
-                    <a href="#" class="resource-card hover-magnify" data-gradient="cyan">
-                        <div class="resource-glow"></div>
-                        <div class="resource-content">
-                            <span class="badge badge-scholarly" style="margin-bottom: 0.5rem;">Classical Treatise</span>
-                            <h3 style="font-size: 1.1rem; color: var(--text-main);">Al-Bidayah wan-Nihayah</h3>
-                            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem;">By Hafiz Ibn Kathir (d. 774 AH) — Kitab al-Fitan</p>
-                        </div>
+
+                    <a href="chapter-02.html" class="glass-card hover-magnify" style="display: block; border-left: 4px solid var(--accent-gold);">
+                        <span class="badge badge-authentic-quran" style="margin-bottom: 0.4rem;">CHAPTER 02</span>
+                        <h3 style="font-size: 1.15rem; color: var(--text-main);">Qur'anic Foundations</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem;">Surah Al-Qamar, Al-Anbiya, Al-Qariah, Al-Zalzalah & Tafsir.</p>
                     </a>
-                    <a href="#" class="resource-card hover-magnify" data-gradient="emerald">
-                        <div class="resource-glow"></div>
-                        <div class="resource-content">
-                            <span class="badge badge-sahih" style="margin-bottom: 0.5rem;">Contemporary Study</span>
-                            <h3 style="font-size: 1.1rem; color: var(--text-main);">Ashrat as-Sa'ah as-Sughra</h3>
-                            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem;">Systematic analysis by Dr. Yusuf al-Wabil</p>
-                        </div>
+
+                    <a href="chapter-03.html" class="glass-card hover-magnify" style="display: block; border-left: 4px solid var(--accent-cg);">
+                        <span class="badge badge-sahih" style="margin-bottom: 0.4rem;">CHAPTER 03</span>
+                        <h3 style="font-size: 1.15rem; color: var(--text-main);">Authentic Hadith</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem;">Canonical narrations from Bukhari, Muslim, Tirmidhi, Abu Dawud.</p>
+                    </a>
+
+                    <a href="chapter-04.html" class="glass-card hover-magnify" style="display: block;">
+                        <span class="badge badge-sahih" style="margin-bottom: 0.4rem;">CHAPTER 04</span>
+                        <h3 style="font-size: 1.15rem; color: var(--text-main);">Minor Signs (Part 1)</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem;">Faith, Morality, Loss of Knowledge, and Social shifts.</p>
+                    </a>
+
+                    <a href="chapter-05.html" class="glass-card hover-magnify" style="display: block;">
+                        <span class="badge badge-observation" style="margin-bottom: 0.4rem;">CHAPTER 05</span>
+                        <h3 style="font-size: 1.15rem; color: var(--text-main);">Minor Signs (Part 2)</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem;">Technology, Time passage, Tall buildings & Arabia greening.</p>
+                    </a>
+
+                    <a href="chapter-06.html" class="glass-card hover-magnify" style="display: block; border-left: 4px solid var(--accent-jh);">
+                        <span class="badge badge-hasan" style="margin-bottom: 0.4rem;">CHAPTER 06</span>
+                        <h3 style="font-size: 1.15rem; color: var(--text-main);">The 10 Major Signs</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem;">Dajjal, Mahdi, Isa AS, Yajuj/Majuj, Smoke, Beast, Sun West.</p>
+                    </a>
+
+                    <a href="chapter-07.html" class="glass-card hover-magnify" style="display: block;">
+                        <span class="badge badge-historical" style="margin-bottom: 0.4rem;">CHAPTER 07</span>
+                        <h3 style="font-size: 1.15rem; color: var(--text-main);">Historical Events</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem;">Verified historical events (Hijaz Fire 654 AH) vs. modern observations.</p>
+                    </a>
+
+                    <a href="chapter-08.html" class="glass-card hover-magnify" style="display: block;">
+                        <span class="badge badge-scholarly" style="margin-bottom: 0.4rem;">CHAPTER 08</span>
+                        <h3 style="font-size: 1.15rem; color: var(--text-main);">Academic Library</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem;">Classical treatises (Al-Tadhkirah) and peer-reviewed studies.</p>
+                    </a>
+
+                    <a href="chapter-09.html" class="glass-card hover-magnify" style="display: block;">
+                        <span class="badge badge-scholarly" style="margin-bottom: 0.4rem;">CHAPTER 09</span>
+                        <h3 style="font-size: 1.15rem; color: var(--text-main);">Research Methodology</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem;">Hadith grading rules, Isnad verification, and consensus criteria.</p>
                     </a>
                 </div>
-            </div>
-        </section>
-
-        <!-- SLIDE 10: RESEARCH & QUARANTINED UNVERIFIED CLAIMS -->
-        <section class="slide" id="slide-10">
-            <div class="slide-content">
-                <div class="section-header">
-                    <span class="slide-subtitle">Scholarly Protection</span>
-                    <h2 class="slide-title">Research & Quarantined Rumors Archive</h2>
-                </div>
-                <div class="glass-card" style="border-left: 4px solid #ef4444; background: rgba(239, 68, 68, 0.05);">
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem;">
-                        <h3 style="color: #ef4444; font-size: 1.2rem;"><i class="fas fa-exclamation-triangle"></i> Quarantined Unverified Claims</h3>
-                        <span class="badge badge-unverified">Warning Archive</span>
-                    </div>
-                    <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 1rem;">
-                        Isolated reports lacking authentic Isnad chains or scholarly support, archived to warn users against fabricated viral narratives.
-                    </p>
-                    <div class="grid-2">
-                        <div class="glass-card" style="border-color: rgba(239,68,68,0.3); padding: 1.2rem;">
-                            <span class="badge badge-mawdu" style="margin-bottom: 0.4rem;">🔴 Fabricated Report</span>
-                            <h4>Specific Year Prediction for Mahdi</h4>
-                            <p style="font-size: 0.82rem; color: var(--text-muted); margin-top: 0.3rem;">
-                                Claiming specific calendar year for Mahdi's emergence. **Scholarly Consensus**: Specifying exact dates contradicts authentic Sunnah.
-                            </p>
-                        </div>
-                        <div class="glass-card" style="border-color: rgba(239,68,68,0.3); padding: 1.2rem;">
-                            <span class="badge badge-daif" style="margin-bottom: 0.4rem;">🟠 Weak / Unconfirmed</span>
-                            <h4>The Blast in Ramadan Narration</h4>
-                            <p style="font-size: 0.82rem; color: var(--text-muted); margin-top: 0.3rem;">
-                                Report of a celestial sound (*Sayhah*) in mid-Ramadan. Graded as severely weak (*Da'if Jiddan*) by Ibn al-Jawzi and Al-Aqili.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <footer style="text-align: center; margin-top: 2rem; color: var(--text-muted); font-size: 0.8rem;">
-                    Nishaniyaan (نشانیاں) — Single-Page Presentation Framework &copy; 2026. Zero-Dependency Vanilla Web App.
-                </footer>
             </div>
         </section>
 
     </div>
 
-    <!-- JavaScript Engine Modules in Exact Order -->
+    <!-- Script Dependencies -->
     <script src="assets/js/theme.js"></script>
     <script src="assets/js/slider.js"></script>
     <script src="assets/js/main.js"></script>
