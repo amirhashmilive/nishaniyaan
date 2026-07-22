@@ -1,0 +1,45 @@
+# Technical Architecture
+
+structure:
+  pages:
+    - index.html (homepage & timeline overview)
+    - chapter-01.html through chapter-12.html
+
+  assets:
+    css:
+      - assets/css/presentation.css (main 100vh scroll-snap & glassmorphism stylesheet)
+    js:
+      - assets/js/presentation.js (navigation, progress dots, slide badge, keyboard controls)
+      - assets/js/theme.js (dark/light mode toggle with localStorage)
+    data:
+      - signs-minor.json
+      - signs-major.json
+      - quran-verses.json
+      - hadith.json
+      - events.json
+
+design_system:
+  colors:
+    accent_primary: blue
+    accent_secondary: gold
+    glass_bg: rgba(18,24,40,0.72)
+    glass_border: rgba(255,255,255,0.1)
+
+  typography:
+    font: Inter
+    headings: Outfit
+    arabic: Amiri
+
+  components:
+    - glass-card
+    - hover-magnify
+    - ctrl-chapters
+    - ctrl-dots
+    - ctrl-slide-num
+    - ctrl-theme
+    - ctrl-home
+
+responsive:
+  desktop: 1024px+
+  tablet: 768-1024px
+  mobile: <768px

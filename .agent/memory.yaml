@@ -1,0 +1,52 @@
+# Project Memory - Updated as decisions are made
+
+decisions:
+  - id: 001
+    date: 2026-01-23
+    topic: Architecture
+    decision: Multi-page presentation format (12 chapters)
+    reason: Clear 7-phase timeline plus foundational & reference chapters
+    alternative: Single page presentation (rejected - context bloat)
+
+  - id: 002
+    date: 2026-01-23
+    topic: UI
+    decision: Use glassmorphic cards with hover magnification
+    reason: Modern, engaging, visual polish
+    alternative: Flat design (rejected - less engaging)
+
+  - id: 003
+    date: 2026-01-23
+    topic: Content
+    decision: Dajjal is central organizing principle
+    reason: Removes confusion, clear 7-phase eschatological timeline
+    alternative: General unorganized signs (rejected - confusing)
+
+  - id: 004
+    date: 2026-01-23
+    topic: Language
+    decision: English only
+    reason: Primary audience, consistent layout
+    alternative: Multilingual (future scope)
+
+knowledge:
+  - key: dajjal_description
+    value: "Defective right eye like swollen grape, K-F-R stamped on forehead"
+  - key: dajjal_days
+    value: "434-439 days (360+30+7+37)"
+  - key: protection
+    value: "First 10 verses of Surah Al-Kahf"
+  - key: chapters
+    value: "12 chapters, 72 slides total"
+
+pitfalls:
+  - token_usage: "Read AGENTS.md first, not all files"
+  - consistency: "Use glossary.md for terms"
+  - content: "All content must have verification badges"
+  - UI: "Keep 100vh, scroll-snap, glassmorphism, floating controls"
+
+patterns:
+  - pattern: "Use glass-card class for all content containers"
+  - pattern: "Apply hover-magnify class for 1.5x scaling"
+  - pattern: "Badge follows title/content header"
+  - pattern: "Each slide is locked at 100vh"

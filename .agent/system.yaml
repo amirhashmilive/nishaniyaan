@@ -1,0 +1,58 @@
+# System Configuration
+project:
+  name: Nishaniyaan
+  description: Signs of the Day of Judgment - Presentation Website
+  type: static-website
+  language: en
+  domain: islamic-reference
+
+repository:
+  url: https://github.com/amirhashmilive/nishaniyaan
+  live: https://amirhashmilive.github.io/nishaniyaan/
+  branch: main
+
+tech_stack:
+  frontend:
+    - HTML5
+    - CSS3 (Custom with variables)
+    - Vanilla JavaScript
+  libraries:
+    - Chart.js
+    - Font Awesome
+    - Google Fonts (Inter)
+  hosting:
+    - GitHub Pages
+    - Cloudflare (custom domain)
+
+architecture:
+  type: multi-page-presentation
+  slides: 100vh full-viewport
+  navigation: floating controls
+  theme: dark/light toggle
+
+chapters:
+  total: 12
+  structure:
+    - 01: Introduction & Overview (3 slides)
+    - 02: Phase 1 - Before Dajjal (9 slides)
+    - 03: Phase 2 - Just Before Dajjal (8 slides)
+    - 04: Phase 3 - The 439 Days of Dajjal (10 slides) ⭐ MAIN
+    - 05: Phase 4 - Arrival of Imam Mahdi (5 slides)
+    - 06: Phase 5 - Descent of Isa AS (6 slides)
+    - 07: Phase 6 - After Death of Dajjal (5 slides)
+    - 08: Phase 7 - After Dajjal to Qiyamah (5 slides)
+    - 09: Qur'anic Foundations (6 slides)
+    - 10: Authentic Hadith Collections (6 slides)
+    - 11: Research & Methodology (5 slides)
+    - 12: Bibliography & Appendices (4 slides)
+
+verification_badges:
+  - 🟢 Authentic (Qur'an)
+  - 🟢 Sahih Hadith
+  - 🟡 Hasan
+  - 🟠 Da'if (Weak)
+  - 🔴 Mawdu' (Fabricated)
+  - ⚪ Scholarly Opinion
+  - 🔵 Historical Record
+  - 🟣 Observation
+  - ⚫ Unverified

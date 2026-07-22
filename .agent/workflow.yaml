@@ -1,0 +1,30 @@
+# Workflow Definitions
+
+feature_workflow:
+  steps:
+    - step: Read AGENTS.md
+    - step: Read .agent/architecture.yaml
+    - step: Read .agent/rules.yaml
+    - step: Read .agent/context.yaml
+    - step: Execute task
+    - step: Test changes
+    - step: Update .agent/decisions.md
+    - step: Commit and push
+
+content_workflow:
+  steps:
+    - step: Identify chapter and slide
+    - step: Prepare content with badges
+    - step: Update HTML file
+    - step: Verify badges
+    - step: Test display
+    - step: Commit and push
+
+deployment_workflow:
+  steps:
+    - step: Test locally
+    - step: Verify all links
+    - step: Check responsive
+    - step: Git add and commit
+    - step: Git push
+    - step: Verify GitHub Pages

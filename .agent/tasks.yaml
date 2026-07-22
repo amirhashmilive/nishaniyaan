@@ -1,0 +1,44 @@
+# Task Management
+
+pending:
+  - id: T001
+    title: Expand Hadith citations in Chapter 10
+    priority: medium
+    assigned: agent
+    status: pending
+    notes: Add more canonical references
+
+  - id: T002
+    title: Add infographic diagrams
+    priority: medium
+    assigned: agent
+    status: pending
+    notes: Visual illustrations for 439 days calculation
+
+  - id: T003
+    title: Add interactive timeline filters
+    priority: low
+    assigned: agent
+    status: pending
+    notes: Filter signs by phase or verification level
+
+in_progress:
+  - id: T000
+    title: Build AI-First Repository Architecture
+    priority: high
+    assigned: agent
+    status: in_progress
+    notes: Creating AGENTS.md and .agent/ folder structure
+
+completed:
+  - id: T-01
+    title: Initial website setup
+    completed: 2026-01-20
+
+  - id: T-02
+    title: Content population & verification badges
+    completed: 2026-01-23
+
+  - id: T-03
+    title: 7-Phase Dajjal timeline & 12-chapter 100vh slide rebuild
+    completed: 2026-01-23

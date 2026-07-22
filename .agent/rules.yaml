@@ -1,0 +1,34 @@
+# Coding and Design Rules
+
+general:
+  - Keep it simple
+  - No heavy frameworks or build steps required
+  - Vanilla JS only
+  - CSS variables for design system and theming
+
+ui_rules:
+  - Every slide is 100vh with scroll-snap
+  - Use glassmorphism for cards (`glass-card`)
+  - 1.5x hover magnification (`hover-magnify`)
+  - Dark/light theme must persist across pages
+  - No traditional website top menu bars or footers
+
+content_rules:
+  - All content in English
+  - Every content item must have verification badge
+  - Qur'an: 🟢 Authentic
+  - Hadith: 🟢 Sahih / 🟡 Hasan / 🟠 Da'if / 🔴 Mawdu'
+  - Opinions: ⚪ Scholarly Opinion
+  - Historical: 🔵 Historical Record
+  - Observations: 🟣 Observation
+  - Unverified: ⚫ Unverified
+
+naming:
+  - Files: kebab-case (chapter-01.html)
+  - Classes: kebab-case (glass-card)
+  - IDs: camelCase (slideNumber)
+
+git:
+  - Commit messages: "type: description"
+  - Types: feat, fix, refactor, docs, test, chore
+  - Push after each completed task
