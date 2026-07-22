@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const container = document.querySelector('.slide-container');
+
     // 1. Universal Card Magnification Safeguard
     const cards = document.querySelectorAll('.hover-magnify');
     cards.forEach(card => {
@@ -9,29 +11,39 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 100);
     });
 
-    // 2. Keyboard Navigation for Scroll-Snap Canvas if present
-    const container = document.querySelector('.slide-container');
+    // 2. Presentation Mode Keyboard Controller
     if (container) {
         document.addEventListener('keydown', (e) => {
             if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) return;
+            const slides = Array.from(document.querySelectorAll('.slide'));
+            if (slides.length === 0) return;
+
             const viewportHeight = window.innerHeight;
+            const currentIndex = Math.round(container.scrollTop / viewportHeight);
+
             if (e.key === 'ArrowDown' || e.key === 'PageDown') {
                 e.preventDefault();
-                container.scrollBy({ top: viewportHeight, behavior: 'smooth' });
+                if (currentIndex < slides.length - 1) {
+                    slides[currentIndex + 1].scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
             } else if (e.key === 'ArrowUp' || e.key === 'PageUp') {
                 e.preventDefault();
-                container.scrollBy({ top: -viewportHeight, behavior: 'smooth' });
+                if (currentIndex > 0) {
+                    slides[currentIndex - 1].scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            } else if (e.key === 'Home') {
+                e.preventDefault();
+                slides[0].scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else if (e.key === 'End') {
+                e.preventDefault();
+                slides[slides.length - 1].scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else if (e.key >= '1' && e.key <= '9') {
+                const targetNum = parseInt(e.key, 10);
+                if (targetNum <= slides.length) {
+                    e.preventDefault();
+                    slides[targetNum - 1].scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
             }
         });
     }
-
-    // 3. Highlight Active Navigation Links based on URL
-    const currentPath = window.location.pathname.split('/').pop() || 'index.html';
-    const navLinks = document.querySelectorAll('.chap-nav a');
-    navLinks.forEach(link => {
-        const href = link.getAttribute('href');
-        if (href === currentPath || (currentPath === '' && href === 'index.html')) {
-            link.classList.add('active');
-        }
-    });
 });
