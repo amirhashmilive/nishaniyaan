@@ -153,10 +153,7 @@ a { color: var(--accent-blue); text-decoration:none; }
   font-weight: 700;
   background: rgba(197,155,39,0.14);
 }
-.ctrl-chapters a.highlight-dajjal {
-  border: 1px solid var(--accent-gold);
-  color: var(--accent-gold);
-}
+
 
 .ctrl-theme {
   position: fixed;
@@ -267,7 +264,7 @@ a { color: var(--accent-blue); text-decoration:none; }
 
 .glass-card--quran { border-left:4px solid var(--accent-gold); }
 .glass-card--hadith { border-left:4px solid var(--accent-blue); }
-.glass-card--dajjal { border-left:4px solid var(--accent-gold); background: linear-gradient(135deg, var(--bg-glass) 0%, rgba(197,155,39,0.08) 100%); }
+
 .glass-card--warning { border-left:4px solid var(--danger); background: rgba(239,68,68,.04); }
 
 .hover-magnify { z-index:1; }

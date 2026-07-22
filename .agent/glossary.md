@@ -51,7 +51,7 @@
 |-------|--------|-----------|
 | 1 | Before Dajjal | Minor Signs Era |
 | 2 | Just Before | Near Signs & Precursors |
-| 3 | 439 Days | Dajjal's Rule ⭐ MAIN |
+| 3 | 439 Days | Dajjal's Rule |
 | 4 | Arrival | Imam Mahdi |
 | 5 | Descent | Isa (AS) |
 | 6 | After | Golden Age & Victory |

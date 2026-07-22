@@ -48,7 +48,7 @@ Nishaniyaan/
 ├── chapter-01.html             (Ch 01: Introduction & Timeline Overview)
 ├── chapter-02.html             (Ch 02: Phase 1 — Before Dajjal / Minor Signs)
 ├── chapter-03.html             (Ch 03: Phase 2 — Just Before Dajjal / Near Signs)
-├── chapter-04.html             (Ch 04: Phase 3 — The 439 Days of Dajjal ⭐ MAIN)
+├── chapter-04.html             (Ch 04: Phase 3 — The 439 Days of Dajjal)
 ├── chapter-05.html             (Ch 05: Phase 4 — Arrival of Imam Mahdi)
 ├── chapter-06.html             (Ch 06: Phase 5 — Descent of Isa AS)
 ├── chapter-07.html             (Ch 07: Phase 6 — After Death of Dajjal)
