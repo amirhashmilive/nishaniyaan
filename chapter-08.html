@@ -1,95 +1,87 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter 08: Academic Library | Nishaniyaan Presentation</title>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 08: Academic Library | Nishaniyaan</title>
+  <link rel="stylesheet" href="assets/css/presentation.css">
 </head>
 <body>
+  <a href="index.html" class="ctrl-home" title="Home">🏠</a>
+  <nav class="ctrl-chapters">
+    <a href="index.html">Home</a>
+    <a href="chapter-01.html">Ch 01</a>
+    <a href="chapter-02.html">Ch 02</a>
+    <a href="chapter-03.html">Ch 03</a>
+    <a href="chapter-04.html">Ch 04</a>
+    <a href="chapter-05.html">Ch 05</a>
+    <a href="chapter-06.html">Ch 06</a>
+    <a href="chapter-07.html">Ch 07</a>
+    <a href="chapter-08.html" class="active">Ch 08</a>
+    <a href="chapter-09.html">Ch 09</a>
+    <a href="chapter-10.html">Ch 10</a>
+    <a href="bibliography.html">Biblio</a>
+  </nav>
+  <button class="ctrl-theme">🌙</button>
+  <div class="ctrl-slide-num"><span class="badge-label">Slide 1 of 3</span> <span>▾</span><div class="slide-jump-menu"></div></div>
+  <div class="ctrl-dots"></div>
 
-    <nav class="chap-nav">
-        <a href="index.html" title="Homepage"><i class="fas fa-home"></i></a>
-        <span class="chap-nav-sep">|</span>
-        <a href="chapter-01.html">Ch 01</a>
-        <a href="chapter-02.html">Ch 02</a>
-        <a href="chapter-03.html">Ch 03</a>
-        <a href="chapter-04.html">Ch 04</a>
-        <a href="chapter-05.html">Ch 05</a>
-        <a href="chapter-06.html">Ch 06</a>
-        <a href="chapter-07.html">Ch 07</a>
-        <a href="chapter-08.html" class="active">Ch 08</a>
-        <a href="chapter-09.html">Ch 09</a>
-        <a href="chapter-10.html">Ch 10</a>
-        <span class="chap-nav-sep">|</span>
-        <a href="bibliography.html">Bibliography</a>
+  <div class="slide-container">
 
-        <div class="nav-actions">
-            <button class="search-trigger-btn"><i class="fas fa-search"></i> Search</button>
-            <button class="theme-toggle"><i class="fas fa-sun"></i></button>
+    <section class="slide" data-slide="1">
+      <div class="slide-inner slide-center">
+        <p class="slide-label">Chapter 08</p>
+        <h1 class="slide-heading" style="font-size:2.8rem;">Academic Library & Literature</h1>
+        <p style="color:var(--text-muted);max-width:650px;margin:.8rem auto 0;">Classical treatises and contemporary academic literature on Islamic eschatology.</p>
+      </div>
+    </section>
+
+    <section class="slide" data-slide="2">
+      <div class="slide-inner">
+        <div class="slide-header">
+          <p class="slide-label">Chapter 08 — Classical Works</p>
+          <h2 class="slide-heading">Foundational Classical Treatises</h2>
         </div>
-    </nav>
-
-    <div class="slide-container">
-        
-        <!-- Slide 1: Classical Treatises -->
-        <section class="slide" data-slide="1" id="slide-1">
-            <div class="slide-content">
-                <div class="section-header">
-                    <span class="slide-subtitle">Chapter 08 — Slide 01</span>
-                    <h1 class="slide-title">Classical Books & Treatises</h1>
-                </div>
-                <div class="grid-2">
-                    <a href="#" class="resource-card hover-magnify" data-gradient="gold">
-                        <div class="resource-glow"></div>
-                        <div class="resource-content">
-                            <span class="badge badge-scholarly" style="margin-bottom: 0.5rem;">Classical Book</span>
-                            <h3 style="font-size: 1.1rem; color: var(--text-main);">Al-Tadhkirah bi-Ahwal al-Mawta</h3>
-                            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem;">By Imam Abu Abdillah Al-Qurtubi (d. 671 AH)</p>
-                        </div>
-                    </a>
-                    <a href="#" class="resource-card hover-magnify" data-gradient="cyan">
-                        <div class="resource-glow"></div>
-                        <div class="resource-content">
-                            <span class="badge badge-scholarly" style="margin-bottom: 0.5rem;">Classical Treatise</span>
-                            <h3 style="font-size: 1.1rem; color: var(--text-main);">Al-Bidayah wan-Nihayah</h3>
-                            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem;">By Hafiz Ibn Kathir (d. 774 AH) — Kitab al-Fitan</p>
-                        </div>
-                    </a>
-                </div>
+        <div class="grid-2">
+          <a href="#" class="resource-card hover-magnify" data-gradient="gold">
+            <div class="resource-glow"></div>
+            <div class="resource-inner">
+              <span class="badge badge-scholarly" style="margin-bottom:.5rem;">Classical Book</span>
+              <h3>Al-Tadhkirah bi-Ahwal al-Mawta</h3>
+              <p style="font-size:.85rem;color:var(--text-muted);margin-top:.3rem;">By Imam Abu Abdillah Al-Qurtubi (d. 671 AH) — Comprehensive compendium on the afterlife and end-times signs.</p>
             </div>
-        </section>
-
-        <!-- Slide 2: Contemporary Studies -->
-        <section class="slide" data-slide="2" id="slide-2">
-            <div class="slide-content">
-                <div class="section-header">
-                    <span class="slide-subtitle">Chapter 08 — Slide 02</span>
-                    <h2 class="slide-title">Contemporary Academic Literature</h2>
-                </div>
-                <a href="#" class="resource-card hover-magnify" data-gradient="emerald">
-                    <div class="resource-glow"></div>
-                    <div class="resource-content">
-                        <span class="badge badge-sahih" style="margin-bottom: 0.5rem;">Contemporary Study</span>
-                        <h3 style="font-size: 1.1rem; color: var(--text-main);">Ashrat as-Sa'ah as-Sughra wal-Kubra</h3>
-                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem;">Systematic analysis by Dr. Yusuf al-Wabil</p>
-                    </div>
-                </a>
+          </a>
+          <a href="#" class="resource-card hover-magnify" data-gradient="cyan">
+            <div class="resource-glow"></div>
+            <div class="resource-inner">
+              <span class="badge badge-scholarly" style="margin-bottom:.5rem;">Classical Treatise</span>
+              <h3>Al-Bidayah wan-Nihayah</h3>
+              <p style="font-size:.85rem;color:var(--text-muted);margin-top:.3rem;">By Hafiz Ibn Kathir (d. 774 AH) — Specifically *Kitab al-Fitan wal-Malahim* detailing tribulation narrations.</p>
             </div>
-        </section>
+          </a>
+        </div>
+      </div>
+    </section>
 
-    </div>
+    <section class="slide" data-slide="3">
+      <div class="slide-inner">
+        <div class="slide-header">
+          <p class="slide-label">Chapter 08 — Modern Studies</p>
+          <h2 class="slide-heading">Contemporary Academic Research</h2>
+        </div>
+        <a href="#" class="resource-card hover-magnify" data-gradient="emerald">
+          <div class="resource-glow"></div>
+          <div class="resource-inner">
+            <span class="badge badge-sahih" style="margin-bottom:.5rem;">Contemporary Study</span>
+            <h3>Ashrat as-Sa'ah as-Sughra wal-Kubra</h3>
+            <p style="font-size:.88rem;color:var(--text-muted);margin-top:.3rem;">Systematic analysis by Dr. Yusuf al-Wabil cataloging and grading every authentic report regarding the Minor and Major Signs.</p>
+          </div>
+        </a>
+      </div>
+    </section>
 
-    <script src="assets/js/theme.js"></script>
-    <script src="assets/js/slider.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/charts.js"></script>
-    <script src="assets/js/slide-number.js"></script>
-    <script src="assets/js/popup.js"></script>
-    <script src="assets/js/app-renderer.js"></script>
-    <script src="assets/js/search-engine.js"></script>
+  </div>
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/presentation.js"></script>
 </body>
 </html>

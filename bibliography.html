@@ -1,73 +1,58 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bibliography & References | Nishaniyaan Presentation</title>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibliography & References | Nishaniyaan</title>
+  <link rel="stylesheet" href="assets/css/presentation.css">
 </head>
 <body>
+  <a href="index.html" class="ctrl-home" title="Home">🏠</a>
+  <nav class="ctrl-chapters">
+    <a href="index.html">Home</a>
+    <a href="chapter-01.html">Ch 01</a>
+    <a href="chapter-02.html">Ch 02</a>
+    <a href="chapter-03.html">Ch 03</a>
+    <a href="chapter-04.html">Ch 04</a>
+    <a href="chapter-05.html">Ch 05</a>
+    <a href="chapter-06.html">Ch 06</a>
+    <a href="chapter-07.html">Ch 07</a>
+    <a href="chapter-08.html">Ch 08</a>
+    <a href="chapter-09.html">Ch 09</a>
+    <a href="chapter-10.html">Ch 10</a>
+    <a href="bibliography.html" class="active">Biblio</a>
+  </nav>
+  <button class="ctrl-theme">🌙</button>
+  <div class="ctrl-slide-num"><span class="badge-label">Slide 1 of 1</span> <span>▾</span><div class="slide-jump-menu"></div></div>
+  <div class="ctrl-dots"></div>
 
-    <nav class="chap-nav">
-        <a href="index.html" title="Homepage"><i class="fas fa-home"></i></a>
-        <span class="chap-nav-sep">|</span>
-        <a href="chapter-01.html">Ch 01</a>
-        <a href="chapter-02.html">Ch 02</a>
-        <a href="chapter-03.html">Ch 03</a>
-        <a href="chapter-04.html">Ch 04</a>
-        <a href="chapter-05.html">Ch 05</a>
-        <a href="chapter-06.html">Ch 06</a>
-        <a href="chapter-07.html">Ch 07</a>
-        <a href="chapter-08.html">Ch 08</a>
-        <a href="chapter-09.html">Ch 09</a>
-        <a href="chapter-10.html">Ch 10</a>
-        <span class="chap-nav-sep">|</span>
-        <a href="bibliography.html" class="active">Bibliography</a>
+  <div class="slide-container">
 
-        <div class="nav-actions">
-            <button class="search-trigger-btn"><i class="fas fa-search"></i> Search</button>
-            <button class="theme-toggle"><i class="fas fa-sun"></i></button>
+    <section class="slide" data-slide="1">
+      <div class="slide-inner">
+        <div class="slide-header">
+          <p class="slide-label">Academic References</p>
+          <h1 class="slide-heading">Bibliography & Source Citations</h1>
         </div>
-    </nav>
+        <div class="glass-card hover-magnify">
+          <h3 style="color:var(--accent-gold);margin-bottom:1rem;">Primary Sources & Classical Compendiums</h3>
+          <ul style="padding-left:1.2rem;color:var(--text-muted);font-size:.9rem;display:flex;flex-direction:column;gap:.5rem;">
+            <li><strong>Al-Qur'an al-Kareem</strong> — Complete Text and Mutawatir Recitations.</li>
+            <li><strong>Sahih al-Bukhari</strong> — Imam Muhammad ibn Ismail al-Bukhari (d. 256 AH).</li>
+            <li><strong>Sahih Muslim</strong> — Imam Muslim ibn al-Hajjaj al-Naysaburi (d. 261 AH).</li>
+            <li><strong>Jami' at-Tirmidhi</strong> — Imam Muhammad ibn Isa at-Tirmidhi (d. 279 AH).</li>
+            <li><strong>Sunan Abi Dawud</strong> — Imam Abu Dawud Sulayman ibn al-Ash'ath (d. 275 AH).</li>
+            <li><strong>Al-Tadhkirah bi-Ahwal al-Mawta</strong> — Imam Abu Abdillah al-Qurtubi (d. 671 AH).</li>
+            <li><strong>Al-Bidayah wan-Nihayah</strong> — Hafiz Imad ad-Din Ibn Kathir (d. 774 AH).</li>
+            <li><strong>Fath al-Bari Sharh Sahih al-Bukhari</strong> — Hafiz Ibn Hajar al-Asqalani (d. 852 AH).</li>
+            <li><strong>Ashrat as-Sa'ah</strong> — Dr. Yusuf ibn Abdallah al-Wabil.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    <div class="slide-container">
-        
-        <!-- Slide 1: Bibliography & Sources -->
-        <section class="slide" data-slide="1" id="slide-1">
-            <div class="slide-content">
-                <div class="section-header">
-                    <span class="slide-subtitle">Academic References</span>
-                    <h1 class="slide-title">Bibliography & Source Citations</h1>
-                </div>
-                <div class="glass-card hover-magnify">
-                    <h3 style="color: var(--accent-gold); margin-bottom: 1rem;">Primary Sources & Canonical Compendiums</h3>
-                    <ul style="padding-left: 1.2rem; color: var(--text-muted); font-size: 0.92rem; display: flex; flex-direction: column; gap: 0.6rem;">
-                        <li><strong>Al-Qur'an al-Kareem</strong> — Complete Text and Mutawatir Recitations.</li>
-                        <li><strong>Sahih al-Bukhari</strong> — Imam Muhammad ibn Ismail al-Bukhari (d. 256 AH).</li>
-                        <li><strong>Sahih Muslim</strong> — Imam Muslim ibn al-Hajjaj al-Naysaburi (d. 261 AH).</li>
-                        <li><strong>Jami' at-Tirmidhi</strong> — Imam Muhammad ibn Isa at-Tirmidhi (d. 279 AH).</li>
-                        <li><strong>Sunan Abi Dawud</strong> — Imam Abu Dawud Sulayman ibn al-Ash'ath (d. 275 AH).</li>
-                        <li><strong>Al-Tadhkirah bi-Ahwal al-Mawta</strong> — Imam Abu Abdillah al-Qurtubi (d. 671 AH).</li>
-                        <li><strong>Al-Bidayah wan-Nihayah</strong> — Hafiz Imad ad-Din Ibn Kathir (d. 774 AH).</li>
-                        <li><strong>Fath al-Bari Sharh Sahih al-Bukhari</strong> — Hafiz Ibn Hajar al-Asqalani (d. 852 AH).</li>
-                        <li><strong>Ashrat as-Sa'ah</strong> — Dr. Yusuf ibn Abdallah al-Wabil.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-    </div>
-
-    <script src="assets/js/theme.js"></script>
-    <script src="assets/js/slider.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/charts.js"></script>
-    <script src="assets/js/slide-number.js"></script>
-    <script src="assets/js/popup.js"></script>
-    <script src="assets/js/app-renderer.js"></script>
-    <script src="assets/js/search-engine.js"></script>
+  </div>
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/presentation.js"></script>
 </body>
 </html>

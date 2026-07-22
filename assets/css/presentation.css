@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700&display=swap');
+
+/* ═══════════════════════════════════════════════════════════
+   NISHANIYAAN — TRUE 100vh SLIDE PRESENTATION ENGINE
+   This is a PRESENTATION, not a website.
+   ═══════════════════════════════════════════════════════════ */
+
+/* ── 1. CSS Design Tokens ────────────────────────────────── */
+:root {
+  --bg-primary: #f4f6fb;
+  --bg-secondary: #eef1f8;
+  --text-main: #141722;
+  --text-muted: #525a70;
+  --bg-glass: rgba(255,255,255,0.72);
+  --bg-glass-border: rgba(0,0,0,0.08);
+  --accent-blue: #0d6efd;
+  --accent-orange: #d97706;
+  --accent-gold: #c59b27;
+  --accent-gold-glow: rgba(197,155,39,0.35);
+  --neon-glow: 0 0 18px rgba(13,110,253,0.25);
+  --card-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --popup-bg: rgba(255,255,255,0.96);
+  --font-arabic: 'Amiri', serif;
+  --font-primary: 'Inter', sans-serif;
+  --font-heading: 'Outfit', 'Inter', sans-serif;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #090c15;
+  --bg-secondary: #101422;
+  --text-main: #f0f4fd;
+  --text-muted: #94a3b8;
+  --bg-glass: rgba(18,24,40,0.68);
+  --bg-glass-border: rgba(255,255,255,0.1);
+  --accent-blue: #38bdf8;
+  --accent-orange: #f97316;
+  --accent-gold: #f59e0b;
+  --accent-gold-glow: rgba(245,158,11,0.4);
+  --neon-glow: 0 0 25px rgba(56,189,248,0.4);
+  --card-shadow: 0 12px 40px rgba(0,0,0,0.55);
+  --success: #34d399;
+  --warning: #fbbf24;
+  --danger: #f87171;
+  --popup-bg: rgba(12,16,30,0.96);
+}
+
+/* ── 2. Hard Reset ───────────────────────────────────────── */
+*,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+
+html, body {
+  width:100%; height:100%;
+  overflow: hidden;                /* body never scrolls */
+  background: var(--bg-primary);
+  color: var(--text-main);
+  font-family: var(--font-primary);
+  line-height: 1.6;
+  transition: background-color .4s, color .4s;
+}
+
+h1,h2,h3,h4,h5,h6 { font-family: var(--font-heading); letter-spacing:-.02em; }
+a { color: var(--accent-blue); text-decoration:none; }
+
+.arabic-text {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  font-size: 1.6rem;
+  line-height: 2.2;
+  color: var(--accent-gold);
+  text-align: right;
+}
+
+/* ── 3. THE PRESENTATION CANVAS ──────────────────────────── */
+/* This is a slide deck, NOT a scrolling page.               */
+.slide-container {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;       /* IE/Edge */
+  scrollbar-width: none;          /* Firefox */
+}
+.slide-container::-webkit-scrollbar { display:none; }
+
+/* Every single slide locks to the viewport — no exceptions */
+.slide {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+  position: relative;
+}
+
+.slide-inner {
+  max-width: 1100px;
+  width: 100%;
+}
+
+/* ── 4. FLOATING PRESENTATION CONTROLS ───────────────────── */
+/* These float OVER every slide. They are NOT a website menu. */
+
+/* 4a. Home icon — top-left */
+.ctrl-home {
+  position: fixed;
+  top: 1.2rem; left: 1.5rem;
+  z-index: 9000;
+  background: var(--bg-glass);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--bg-glass-border);
+  border-radius: 50%;
+  width: 42px; height: 42px;
+  display: flex; align-items:center; justify-content:center;
+  color: var(--text-main);
+  font-size: 1.15rem;
+  cursor: pointer;
+  box-shadow: var(--card-shadow);
+  transition: transform .2s, box-shadow .2s;
+  text-decoration: none;
+}
+.ctrl-home:hover { transform:scale(1.1); box-shadow: var(--neon-glow); }
+
+/* 4b. Chapter pill menu — top-center */
+.ctrl-chapters {
+  position: fixed;
+  top: 1.2rem;
+  left: 50%; transform: translateX(-50%);
+  z-index: 9000;
+  background: var(--bg-glass);
+  backdrop-filter: blur(14px);
+  border: 1px solid var(--bg-glass-border);
+  border-radius: 28px;
+  padding: 5px 10px;
+  display: flex;
+  gap: 2px;
+  box-shadow: var(--card-shadow);
+  max-width: 92vw;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.ctrl-chapters::-webkit-scrollbar { display:none; }
+
+.ctrl-chapters a {
+  color: var(--text-muted);
+  font-size: .78rem;
+  font-weight: 500;
+  padding: 5px 9px;
+  border-radius: 18px;
+  transition: all .2s;
+  display: inline-block;
+}
+.ctrl-chapters a:hover { color: var(--text-main); background: var(--bg-glass-border); }
+.ctrl-chapters a.active {
+  color: var(--accent-gold);
+  font-weight: 700;
+  background: rgba(197,155,39,0.12);
+}
+
+/* 4c. Theme toggle — bottom-left */
+.ctrl-theme {
+  position: fixed;
+  bottom: 1.5rem; left: 1.5rem;
+  z-index: 9000;
+  background: var(--bg-glass);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--bg-glass-border);
+  border-radius: 50%;
+  width: 42px; height: 42px;
+  display: flex; align-items:center; justify-content:center;
+  color: var(--text-main);
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: var(--card-shadow);
+  transition: transform .3s;
+}
+.ctrl-theme:hover { transform:rotate(25deg); }
+
+/* 4d. Slide number badge — bottom-right */
+.ctrl-slide-num {
+  position: fixed;
+  bottom: 1.5rem; right: 1.5rem;
+  z-index: 9000;
+  background: var(--bg-glass);
+  backdrop-filter: blur(14px);
+  border: 1px solid var(--bg-glass-border);
+  border-radius: 24px;
+  padding: 6px 16px;
+  font-size: .82rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex; align-items:center; gap:8px;
+  box-shadow: var(--card-shadow);
+  color: var(--text-main);
+  transition: transform .2s, box-shadow .2s;
+}
+.ctrl-slide-num:hover { transform:translateY(-2px); box-shadow: var(--neon-glow); }
+
+/* Dropdown from slide-num badge */
+.slide-jump-menu {
+  position: absolute;
+  bottom: 110%; right: 0;
+  width: 260px;
+  max-height: 360px;
+  overflow-y: auto;
+  background: var(--popup-bg);
+  backdrop-filter: blur(14px);
+  border: 1px solid var(--bg-glass-border);
+  border-radius: 16px;
+  box-shadow: 0 20px 50px rgba(0,0,0,.5);
+  padding: 6px;
+  display: none;
+  flex-direction: column;
+  gap: 3px;
+}
+.ctrl-slide-num.open .slide-jump-menu { display:flex; }
+
+.slide-jump-item {
+  background: none; border:none;
+  color: var(--text-main);
+  padding: 7px 12px;
+  border-radius: 10px;
+  text-align: left;
+  font-size: .83rem;
+  cursor: pointer;
+  display: flex; align-items:center; gap:8px;
+  transition: background .15s;
+}
+.slide-jump-item:hover, .slide-jump-item.active {
+  background: var(--bg-glass-border);
+  color: var(--accent-blue);
+}
+.slide-jump-item .jnum { font-weight:800; color: var(--accent-gold); min-width:18px; }
+
+/* 4e. Progress dots — right side */
+.ctrl-dots {
+  position: fixed;
+  right: 1.5rem;
+  top: 50%; transform: translateY(-50%);
+  z-index: 9000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ctrl-dots .dot {
+  width: 9px; height: 9px;
+  border-radius: 50%;
+  background: var(--bg-glass-border);
+  border: 1px solid var(--bg-glass-border);
+  cursor: pointer;
+  transition: all .25s;
+}
+.ctrl-dots .dot.active {
+  background: var(--accent-blue);
+  transform: scale(1.5);
+  box-shadow: 0 0 8px var(--accent-blue);
+}
+
+/* ── 5. GLASS CARDS ──────────────────────────────────────── */
+.glass-card {
+  background: var(--bg-glass);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--bg-glass-border);
+  border-radius: 18px;
+  padding: 1.8rem;
+  box-shadow: var(--card-shadow);
+  transition: transform .25s cubic-bezier(.22,1,.36,1), box-shadow .25s, border-color .25s;
+}
+.glass-card:hover { box-shadow: var(--neon-glow); border-color: var(--accent-blue); }
+
+.glass-card--quran { border-left:4px solid var(--accent-gold); }
+.glass-card--hadith { border-left:4px solid var(--accent-blue); }
+.glass-card--warning { border-left:4px solid var(--danger); background: rgba(239,68,68,.04); }
+
+/* 1.5x hover magnify with 400px safeguard */
+.hover-magnify { z-index:1; }
+.hover-magnify:hover {
+  transform: scale(1.5) !important;
+  z-index: 100 !important;
+  box-shadow: 0 16px 40px rgba(0,0,0,.5) !important;
+}
+.hover-magnify.wide-card:hover {
+  transform: scale(1.04) !important;
+}
+
+/* Resource glow cards */
+.resource-card { position:relative; display:block; border-radius:18px; text-decoration:none; }
+.resource-glow {
+  position:absolute; inset:0; border-radius:22px;
+  opacity:.35; filter:blur(25px); z-index:0; transition: opacity .3s;
+}
+.resource-card:hover .resource-glow { opacity:.7; }
+.resource-card[data-gradient="gold"] .resource-glow { background:linear-gradient(137deg,#f59e0b,#d97706,#b45309); }
+.resource-card[data-gradient="cyan"] .resource-glow { background:linear-gradient(137deg,#38bdf8,#0284c7,#0369a1); }
+.resource-card[data-gradient="emerald"] .resource-glow { background:linear-gradient(137deg,#34d399,#059669,#047857); }
+.resource-inner {
+  position:relative; z-index:1;
+  background: var(--bg-glass);
+  border:1px solid var(--bg-glass-border);
+  border-radius:18px; padding:1.5rem;
+}
+
+/* ── 6. VERIFICATION BADGES ──────────────────────────────── */
+.badge {
+  display:inline-flex; align-items:center; gap:5px;
+  padding:4px 12px; border-radius:20px;
+  font-size:.76rem; font-weight:600;
+}
+.badge-quran      { background:rgba(16,185,129,.14); color:#10b981; border:1px solid rgba(16,185,129,.3); }
+.badge-sahih      { background:rgba(16,185,129,.14); color:#10b981; border:1px solid rgba(16,185,129,.3); }
+.badge-hasan      { background:rgba(245,158,11,.14); color:#f59e0b; border:1px solid rgba(245,158,11,.3); }
+.badge-daif       { background:rgba(239,68,68,.14);  color:#ef4444; border:1px solid rgba(239,68,68,.3); }
+.badge-mawdu      { background:rgba(153,27,27,.18);  color:#f87171; border:1px solid rgba(153,27,27,.35); }
+.badge-scholarly  { background:rgba(148,163,184,.14); color:#94a3b8; border:1px solid rgba(148,163,184,.3); }
+.badge-historical { background:rgba(14,165,233,.14); color:#0ea5e9; border:1px solid rgba(14,165,233,.3); }
+.badge-observation{ background:rgba(168,85,247,.14); color:#a855f7; border:1px solid rgba(168,85,247,.3); }
+.badge-unverified { background:rgba(71,85,105,.18);  color:#94a3b8; border:1px solid rgba(71,85,105,.3); }
+
+/* ── 7. LAYOUT GRIDS ─────────────────────────────────────── */
+.grid-2 { display:grid; grid-template-columns:repeat(2,1fr); gap:1.4rem; }
+.grid-3 { display:grid; grid-template-columns:repeat(3,1fr); gap:1.4rem; }
+.grid-4 { display:grid; grid-template-columns:repeat(4,1fr); gap:1.2rem; }
+
+/* ── 8. SLIDE TYPOGRAPHY ─────────────────────────────────── */
+.slide-label {
+  text-transform:uppercase; font-size:.8rem;
+  letter-spacing:.16em; color:var(--accent-gold); font-weight:700;
+  margin-bottom:.2rem;
+}
+.slide-heading {
+  font-size:2.4rem; font-weight:800;
+  background:linear-gradient(135deg, var(--text-main) 0%, var(--accent-blue) 100%);
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+  margin-bottom:.6rem;
+}
+.slide-center { text-align:center; }
+.slide-header { text-align:center; margin-bottom:1.8rem; }
+
+/* ── 9. TAFSIR BOX ───────────────────────────────────────── */
+.tafsir-box {
+  margin-top:.8rem;
+  background: var(--bg-glass-border);
+  padding:10px 14px; border-radius:12px;
+}
+.tafsir-box strong { font-size:.82rem; color:var(--accent-gold); }
+.tafsir-box p { font-size:.85rem; color:var(--text-muted); margin-top:3px; }
+
+/* ── 10. RESPONSIVE ──────────────────────────────────────── */
+@media (max-width:1024px) {
+  .grid-4 { grid-template-columns:repeat(2,1fr); }
+  .slide-heading { font-size:2rem; }
+}
+@media (max-width:768px) {
+  .slide-heading { font-size:1.5rem !important; }
+  .grid-2,.grid-3,.grid-4 { display:flex !important; flex-direction:column !important; }
+  .ctrl-dots { display:none !important; }
+  .ctrl-chapters { font-size:.7rem; }
+  .hover-magnify:hover { transform:scale(1.04) !important; }
+  .slide { padding:1.5rem; }
+}

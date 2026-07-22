@@ -1,105 +1,98 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter 02: Qur'anic Foundations | Nishaniyaan Presentation</title>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 02: Qur'anic Foundations | Nishaniyaan</title>
+  <link rel="stylesheet" href="assets/css/presentation.css">
 </head>
 <body>
+  <a href="index.html" class="ctrl-home" title="Home">🏠</a>
+  <nav class="ctrl-chapters">
+    <a href="index.html">Home</a>
+    <a href="chapter-01.html">Ch 01</a>
+    <a href="chapter-02.html" class="active">Ch 02</a>
+    <a href="chapter-03.html">Ch 03</a>
+    <a href="chapter-04.html">Ch 04</a>
+    <a href="chapter-05.html">Ch 05</a>
+    <a href="chapter-06.html">Ch 06</a>
+    <a href="chapter-07.html">Ch 07</a>
+    <a href="chapter-08.html">Ch 08</a>
+    <a href="chapter-09.html">Ch 09</a>
+    <a href="chapter-10.html">Ch 10</a>
+    <a href="bibliography.html">Biblio</a>
+  </nav>
+  <button class="ctrl-theme">🌙</button>
+  <div class="ctrl-slide-num"><span class="badge-label">Slide 1 of 3</span> <span>▾</span><div class="slide-jump-menu"></div></div>
+  <div class="ctrl-dots"></div>
 
-    <nav class="chap-nav">
-        <a href="index.html" title="Homepage"><i class="fas fa-home"></i></a>
-        <span class="chap-nav-sep">|</span>
-        <a href="chapter-01.html">Ch 01</a>
-        <a href="chapter-02.html" class="active">Ch 02</a>
-        <a href="chapter-03.html">Ch 03</a>
-        <a href="chapter-04.html">Ch 04</a>
-        <a href="chapter-05.html">Ch 05</a>
-        <a href="chapter-06.html">Ch 06</a>
-        <a href="chapter-07.html">Ch 07</a>
-        <a href="chapter-08.html">Ch 08</a>
-        <a href="chapter-09.html">Ch 09</a>
-        <a href="chapter-10.html">Ch 10</a>
-        <span class="chap-nav-sep">|</span>
-        <a href="bibliography.html">Bibliography</a>
+  <div class="slide-container">
 
-        <div class="nav-actions">
-            <button class="search-trigger-btn"><i class="fas fa-search"></i> Search</button>
-            <button class="theme-toggle"><i class="fas fa-sun"></i></button>
+    <!-- Slide 1 — Chapter Title -->
+    <section class="slide" data-slide="1">
+      <div class="slide-inner slide-center">
+        <p class="slide-label">Chapter 02</p>
+        <h1 class="slide-heading" style="font-size:2.8rem;">Qur'anic Foundations</h1>
+        <p style="color:var(--text-muted);max-width:650px;margin:.8rem auto 0;">
+          The highest divine authority. Explicit verses concerning the Hour, the Day of Judgment, and eschatological events — presented with classical Tafsir.
+        </p>
+      </div>
+    </section>
+
+    <!-- Slide 2 — Surah Al-Qamar -->
+    <section class="slide" data-slide="2">
+      <div class="slide-inner">
+        <div class="slide-header">
+          <p class="slide-label">Chapter 02 — The Moon Splitting</p>
+          <h2 class="slide-heading">Surah Al-Qamar (54:1-2)</h2>
         </div>
-    </nav>
+        <div class="glass-card glass-card--quran">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.5rem;">
+            <span class="badge badge-quran">🟢 Authentic (Qur'an)</span>
+            <span style="font-size:.8rem;color:var(--text-muted);">Meccan Surah</span>
+          </div>
+          <p class="arabic-text" style="font-size:1.8rem;">
+            اقْتَرَبَتِ السَّاعَةُ وَانشَقَّ الْقَمَرُ ﴿١﴾ وَإِن يَرَوْا آيَةً يُعْرِضُوا وَيَقُولُوا سِحْرٌ مُّسْتَمِرٌّ ﴿٢﴾
+          </p>
+          <p style="color:var(--text-main);font-weight:500;font-size:1rem;margin-top:.8rem;">
+            "The Hour has drawn near, and the moon has been split. And if they see a sign, they turn away and say, 'This is continuous magic.'"
+          </p>
+          <div class="tafsir-box">
+            <strong>Tafsir Ibn Kathir:</strong>
+            <p>Occurred during the lifetime of the Prophet ﷺ when the Meccans asked for a sign. Allah split the moon into two distinct parts visible over Mount Abu Qubays.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class="slide-container">
-        
-        <!-- Slide 1: Surah Al-Qamar -->
-        <section class="slide" data-slide="1" id="slide-1">
-            <div class="slide-content">
-                <div class="section-header">
-                    <span class="slide-subtitle">Chapter 02 — Slide 01</span>
-                    <h1 class="slide-title">Surah Al-Qamar & The Moon Splitting</h1>
-                </div>
-                <div class="glass-card glass-card--quran hover-magnify">
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem;">
-                        <span class="badge badge-authentic-quran">Surah Al-Qamar (54:1-2)</span>
-                        <span style="font-size: 0.8rem; color: var(--text-muted);">Meccan Surah</span>
-                    </div>
-                    <div class="arabic-text">
-                        اقْتَرَبَتِ السَّاعَةُ وَانشَقَّ الْقَمَرُ ﴿١﴾ وَإِن يَرَوْا آيَةً يُعْرِضُوا وَيَقُولُوا سِحْرٌ مُّسْتَمِرٌّ ﴿٢﴾
-                    </div>
-                    <p style="color: var(--text-main); font-weight: 500; font-size: 1rem; margin-top: 0.8rem;">
-                        "The Hour has drawn near, and the moon has been split. And if they see a sign, they turn away and say, 'This is continuous magic.'"
-                    </p>
-                    <div style="margin-top: 1rem; background: var(--bg-glass-border); padding: 12px 16px; border-radius: 12px;">
-                        <strong style="font-size: 0.85rem; color: var(--accent-gold);">Tafsir Ibn Kathir:</strong>
-                        <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 4px;">
-                            Occurred during the lifetime of Allah's Messenger ﷺ when the Meccans asked for a sign, and Allah split the moon into two distinct parts visible over Mount Abu Qubays.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- Slide 3 — Surah Al-Anbiya -->
+    <section class="slide" data-slide="3">
+      <div class="slide-inner">
+        <div class="slide-header">
+          <p class="slide-label">Chapter 02 — Gog & Magog</p>
+          <h2 class="slide-heading">Surah Al-Anbiya (21:96-97)</h2>
+        </div>
+        <div class="glass-card glass-card--quran">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.5rem;">
+            <span class="badge badge-quran">🟢 Authentic (Qur'an)</span>
+            <span style="font-size:.8rem;color:var(--text-muted);">Major Sign Reference</span>
+          </div>
+          <p class="arabic-text" style="font-size:1.8rem;">
+            حَتَّىٰ إِذَا فُتِحَتْ يَأْجُوجُ وَمَأْجُوجُ وَهُم مِّن كُلِّ حَدَبٍ يَنسِلُونَ ﴿٩٦﴾
+          </p>
+          <p style="color:var(--text-main);font-weight:500;font-size:1rem;margin-top:.8rem;">
+            "Until when Gog and Magog are let loose, and they swiftly swarm down from every elevation..."
+          </p>
+          <div class="tafsir-box">
+            <strong>Cross-Reference:</strong>
+            <p>Linked to Major Sign #04. The wall built by Dhul-Qarnayn of iron and copper will be breached near the end of times (Surah Al-Kahf 18:94-98).</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- Slide 2: Surah Al-Anbiya -->
-        <section class="slide" data-slide="2" id="slide-2">
-            <div class="slide-content">
-                <div class="section-header">
-                    <span class="slide-subtitle">Chapter 02 — Slide 02</span>
-                    <h2 class="slide-title">Surah Al-Anbiya & Yajuj wa Majuj</h2>
-                </div>
-                <div class="glass-card glass-card--quran hover-magnify">
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem;">
-                        <span class="badge badge-authentic-quran">Surah Al-Anbiya (21:96-97)</span>
-                        <span style="font-size: 0.8rem; color: var(--text-muted);">Major Sign Reference</span>
-                    </div>
-                    <div class="arabic-text">
-                        حَتَّىٰ إِذَا فُتِحَتْ يَأْجُوجُ وَمَأْجُوجُ وَهُم مِّن كُلِّ حَدَبٍ يَنسِلُونَ ﴿٩٦﴾ وَاقْتَرَبَ الْوَعْدُ الْحَقُّ...
-                    </div>
-                    <p style="color: var(--text-main); font-weight: 500; font-size: 1rem; margin-top: 0.8rem;">
-                        "Until when Gog and Magog are let loose, and they swiftly swarm down from every elevation. And the true promise draws near..."
-                    </p>
-                    <div style="margin-top: 1rem; background: var(--bg-glass-border); padding: 12px 16px; border-radius: 12px;">
-                        <strong style="font-size: 0.85rem; color: var(--accent-gold);">Cross-Reference:</strong>
-                        <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 4px;">
-                            Linked to Major Sign #04 and Sahih Muslim Hadith #2937 regarding the wall constructed of iron and copper by Dhul-Qarnayn.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </div>
-
-    <script src="assets/js/theme.js"></script>
-    <script src="assets/js/slider.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/charts.js"></script>
-    <script src="assets/js/slide-number.js"></script>
-    <script src="assets/js/popup.js"></script>
-    <script src="assets/js/app-renderer.js"></script>
-    <script src="assets/js/search-engine.js"></script>
+  </div>
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/presentation.js"></script>
 </body>
 </html>

@@ -1,33 +1,34 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const savedTheme = localStorage.getItem('theme') || 'dark';
-    document.documentElement.setAttribute('data-theme', savedTheme);
+/* ═══════════════════════════════════════════════════════════
+   THEME ENGINE — Dark/Light toggle with localStorage
+   ═══════════════════════════════════════════════════════════ */
+(function() {
+  'use strict';
 
-    let toggleBtn = document.querySelector('.theme-toggle');
-    if (!toggleBtn) {
-        const navActions = document.querySelector('.nav-actions');
-        if (navActions) {
-            toggleBtn = document.createElement('button');
-            toggleBtn.className = 'theme-toggle';
-            toggleBtn.setAttribute('title', 'Toggle Theme');
-            toggleBtn.innerHTML = savedTheme === 'dark' ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
-            navActions.appendChild(toggleBtn);
-        }
+  const STORAGE_KEY = 'nishaniyaan-theme';
+
+  function getPreferred() {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) return saved;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+
+  function apply(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem(STORAGE_KEY, theme);
+    // Update icon
+    document.querySelectorAll('.ctrl-theme').forEach(btn => {
+      btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+    });
+  }
+
+  // Apply on load
+  apply(getPreferred());
+
+  // Bind toggle buttons
+  document.addEventListener('click', e => {
+    if (e.target.closest('.ctrl-theme')) {
+      const current = document.documentElement.getAttribute('data-theme');
+      apply(current === 'dark' ? 'light' : 'dark');
     }
-
-    if (toggleBtn) {
-        toggleBtn.addEventListener('click', () => {
-            const currentTheme = document.documentElement.getAttribute('data-theme');
-            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-
-            document.documentElement.classList.add('theme-transitioning');
-            setTimeout(() => document.documentElement.classList.remove('theme-transitioning'), 450);
-
-            document.documentElement.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
-            toggleBtn.innerHTML = newTheme === 'dark' ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
-
-            // Notify charts and other reactive components
-            window.dispatchEvent(new Event('themeChanged'));
-        });
-    }
-});
+  });
+})();
