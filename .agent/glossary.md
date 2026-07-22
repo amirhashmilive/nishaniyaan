@@ -25,6 +25,26 @@
 | 🟣 Observation | Contemporary trends |
 | ⚫ Unverified | Quarantined rumors |
 
+## Content Processing Terms
+
+| Term | Meaning |
+|------|---------|
+| **Sanitization** | Removing identities, metadata, promotional content |
+| **Translation** | Converting non-English content to English |
+| **Verification** | Checking against Qur'an and Hadith sources |
+| **Classification** | Categorizing content by type |
+| **Distribution** | Assigning to correct chapter/slide |
+| **Quarantine** | Placing unverified claims in separate section |
+| **Integration** | Updating the website with processed content |
+
+## Language Policy
+
+- **All content must be in English**
+- Any input in any language MUST be translated
+- Translation must preserve meaning and context
+- Arabic terms may be kept with transliteration
+- No non-English content on the website
+
 ## Phases
 
 | Phase | Period | Key Event |

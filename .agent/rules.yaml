@@ -23,6 +23,36 @@ content_rules:
   - Observations: 🟣 Observation
   - Unverified: ⚫ Unverified
 
+language_rules:
+  - ALL content must be in English
+  - Any input in any language MUST be translated to English
+  - Translation must preserve meaning, context, and nuance
+  - Arabic terms may be kept with transliteration
+  - NO non-English content on the website
+
+content_processing:
+  sanitization:
+    - Remove all podcast/channel/host identities
+    - Remove timestamps and production metadata
+    - Remove personal identifiers
+    - Keep substantive content only
+
+  verification:
+    - Verify against Qur'an and Hadith sources
+    - DO NOT mention Shia/Sunni divisions
+    - Assign appropriate verification badge
+    - Always cite the source if found
+
+  distribution:
+    - Distribute to correct chapter/slide
+    - NEVER discard content - quarantine unverified claims
+    - Update existing slides or create new ones
+
+  language:
+    - Translate any non-English input to English
+    - Verify translation accuracy
+    - Insert only English content into the website
+
 naming:
   - Files: kebab-case (chapter-01.html)
   - Classes: kebab-case (glass-card)
