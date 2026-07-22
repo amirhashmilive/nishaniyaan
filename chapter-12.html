@@ -8,6 +8,7 @@
 </head>
 <body>
   <a href="index.html" class="ctrl-home" title="Home">🏠</a>
+
   <nav class="ctrl-chapters">
     <a href="index.html">Home</a>
     <a href="chapter-01.html">Ch 01</a>
@@ -23,8 +24,14 @@
     <a href="chapter-11.html">Ch 11</a>
     <a href="chapter-12.html" class="active">Ch 12</a>
   </nav>
+
   <button class="ctrl-theme">🌙</button>
-  <div class="ctrl-slide-num"><span class="badge-label">Slide 1 of 4</span> <span>▾</span><div class="slide-jump-menu"></div></div>
+
+  <div class="ctrl-slide-num">
+    <span class="badge-label">Slide 1 of 4</span> <span>▾</span>
+    <div class="slide-jump-menu"></div>
+  </div>
+
   <div class="ctrl-dots"></div>
 
   <div class="slide-container">
@@ -33,21 +40,23 @@
     <section class="slide" data-slide="1">
       <div class="slide-inner">
         <div class="slide-header">
-          <p class="slide-label">Academic Citations</p>
+          <p class="slide-label">Academic References</p>
           <h1 class="slide-heading">Academic Bibliography</h1>
         </div>
         <div class="glass-card hover-magnify">
-          <h3 style="color:var(--accent-gold); margin-bottom:1rem;">Primary Sources & Compendiums</h3>
-          <ul style="padding-left:1.2rem; color:var(--text-muted); font-size:.88rem; display:flex; flex-direction:column; gap:.4rem;">
-            <li><strong>Al-Qur'an al-Kareem</strong> — Complete Text and Mutawatir Recitations.</li>
+          <h3 style="color:var(--accent-gold); margin-bottom:.8rem;">Primary Canonical Sources & Exegesis</h3>
+          <ul style="padding-left:1.2rem; color:var(--text-muted); font-size:.86rem; display:flex; flex-direction:column; gap:.3rem;">
+            <li><strong>Al-Qur'an al-Kareem</strong> — Mutawatir text and recitations.</li>
             <li><strong>Sahih al-Bukhari</strong> — Imam Muhammad ibn Ismail al-Bukhari (d. 256 AH).</li>
             <li><strong>Sahih Muslim</strong> — Imam Muslim ibn al-Hajjaj al-Naysaburi (d. 261 AH).</li>
             <li><strong>Jami' at-Tirmidhi</strong> — Imam Muhammad ibn Isa at-Tirmidhi (d. 279 AH).</li>
             <li><strong>Sunan Abi Dawud</strong> — Imam Abu Dawud Sulayman ibn al-Ash'ath (d. 275 AH).</li>
+            <li><strong>Sunan Ibn Majah</strong> — Imam Ibn Majah al-Qazwini (d. 273 AH).</li>
+            <li><strong>Musnad Ahmad</strong> — Imam Ahmad ibn Hanbal (d. 241 AH).</li>
             <li><strong>Al-Tadhkirah bi-Ahwal al-Mawta</strong> — Imam Abu Abdillah al-Qurtubi (d. 671 AH).</li>
             <li><strong>Al-Bidayah wan-Nihayah</strong> — Hafiz Imad ad-Din Ibn Kathir (d. 774 AH).</li>
             <li><strong>Fath al-Bari Sharh Sahih al-Bukhari</strong> — Hafiz Ibn Hajar al-Asqalani (d. 852 AH).</li>
-            <li><strong>Ashrat as-Sa'ah</strong> — Dr. Yusuf ibn Abdallah al-Wabil.</li>
+            <li><strong>Ashrat as-Sa'ah as-Sughra wal-Kubra</strong> — Dr. Yusuf ibn Abdallah al-Wabil.</li>
           </ul>
         </div>
       </div>
@@ -72,17 +81,17 @@
             <tbody>
               <tr>
                 <td>Day 1</td>
-                <td>1 Year (Solar/Lunar Year)</td>
+                <td>1 Year (First Day)</td>
                 <td>360 Days</td>
               </tr>
               <tr>
                 <td>Day 2</td>
-                <td>1 Month</td>
+                <td>1 Month (Second Day)</td>
                 <td>30 Days</td>
               </tr>
               <tr>
                 <td>Day 3</td>
-                <td>1 Week</td>
+                <td>1 Week (Third Day)</td>
                 <td>7 Days</td>
               </tr>
               <tr>
@@ -101,25 +110,28 @@
       </div>
     </section>
 
-    <!-- Slide 3: Appendix - Maps & Timelines -->
+    <!-- Slide 3: Appendix - Maps and Timelines -->
     <section class="slide" data-slide="3">
       <div class="slide-inner">
         <div class="slide-header">
           <p class="slide-label">Appendix B</p>
-          <h2 class="slide-heading">Geographic Routes & Key Locations</h2>
+          <h2 class="slide-heading">Maps, Geographic Routes & Timelines</h2>
         </div>
         <div class="grid-3">
           <div class="glass-card hover-magnify">
-            <h4 style="color:var(--accent-gold);">Isfahan & Sham</h4>
-            <p style="font-size:.82rem; color:var(--text-muted); margin-top:.3rem;">Emergence pass between Syria and Iraq; followers gathered from Isfahan.</p>
+            <span class="badge badge-sahih">Emergence Pass</span>
+            <h4 style="color:var(--accent-gold); margin-top:.3rem;">Sham & Iraq Axis</h4>
+            <p style="font-size:.82rem; color:var(--text-muted);">Passageway between Syria and Iraq, originating from Khurasan / Isfahan (Iran).</p>
           </div>
           <div class="glass-card hover-magnify">
-            <h4 style="color:var(--success);">Makkah & Madinah</h4>
-            <p style="font-size:.82rem; color:var(--text-muted); margin-top:.3rem;">Guarded by angels at every mountain pass with drawn swords.</p>
+            <span class="badge badge-sahih">Sanctuary</span>
+            <h4 style="color:var(--success); margin-top:.3rem;">Makkah & Madinah</h4>
+            <p style="font-size:.82rem; color:var(--text-muted);">Guarded at every mountain pass by sword-bearing angels; entry strictly barred.</p>
           </div>
           <div class="glass-card hover-magnify">
-            <h4 style="color:var(--accent-blue);">Damascus & Bab Ludd</h4>
-            <p style="font-size:.82rem; color:var(--text-muted); margin-top:.3rem;">Descent at white minaret and final victory over Dajjal at Lydda gate.</p>
+            <span class="badge badge-sahih">Final Battle</span>
+            <h4 style="color:var(--accent-blue); margin-top:.3rem;">Damascus & Bab Ludd</h4>
+            <p style="font-size:.82rem; color:var(--text-muted);">Descent at eastern white minaret; Dajjal slain at gate of Lydda.</p>
           </div>
         </div>
       </div>
@@ -129,9 +141,10 @@
     <section class="slide" data-slide="4">
       <div class="slide-inner slide-center">
         <div class="glass-card" style="padding:2.5rem;">
-          <h3 style="color:var(--accent-gold); margin-bottom:.6rem;">Scholarly Presentation Media Gallery</h3>
+          <span class="badge badge-scholarly" style="margin-bottom:.4rem;">⚪ Archive Media</span>
+          <h3 style="color:var(--accent-gold); margin-bottom:.6rem;">Scholarly Media Gallery & Infographics</h3>
           <p style="color:var(--text-muted); font-size:.92rem; max-width:650px; margin:0 auto;">
-            Interactive charts, verification badges, and primary source documents compiled for academic research and presentation.
+            Interactive charts, 9-tier visual verification badges, calculation diagrams, and primary source references compiled for academic research and presentation.
           </p>
         </div>
       </div>

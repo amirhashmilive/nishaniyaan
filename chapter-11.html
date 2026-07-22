@@ -8,6 +8,7 @@
 </head>
 <body>
   <a href="index.html" class="ctrl-home" title="Home">🏠</a>
+
   <nav class="ctrl-chapters">
     <a href="index.html">Home</a>
     <a href="chapter-01.html">Ch 01</a>
@@ -23,8 +24,14 @@
     <a href="chapter-11.html" class="active">Ch 11</a>
     <a href="chapter-12.html">Ch 12</a>
   </nav>
+
   <button class="ctrl-theme">🌙</button>
-  <div class="ctrl-slide-num"><span class="badge-label">Slide 1 of 5</span> <span>▾</span><div class="slide-jump-menu"></div></div>
+
+  <div class="ctrl-slide-num">
+    <span class="badge-label">Slide 1 of 5</span> <span>▾</span>
+    <div class="slide-jump-menu"></div>
+  </div>
+
   <div class="ctrl-dots"></div>
 
   <div class="slide-container">
@@ -32,11 +39,14 @@
     <!-- Slide 1: Overview -->
     <section class="slide" data-slide="1">
       <div class="slide-inner slide-center">
-        <p class="slide-label">Scholarly Standards</p>
+        <p class="slide-label">Scholarly Governance</p>
         <h1 class="slide-heading" style="font-size:2.8rem;">Research & Methodology</h1>
-        <p style="color:var(--text-muted); max-width:650px; margin:.8rem auto 0;">
-          Verification system, Isnad analysis principles, scholarly consensus, and quarantine protocol.
+        <p style="color:var(--text-muted); max-width:700px; margin:.8rem auto 1rem;">
+          Rigorous academic guidelines governing content verification, source attribution, Hadith grading, and claim quarantine.
         </p>
+        <div style="display:flex; justify-content:center; gap:8px; flex-wrap:wrap;">
+          <span class="badge badge-scholarly">⚪ Scholarly Opinion Protocol</span>
+        </div>
       </div>
     </section>
 
@@ -44,46 +54,64 @@
     <section class="slide" data-slide="2">
       <div class="slide-inner">
         <div class="slide-header">
-          <p class="slide-label">Chapter 11 — Standards</p>
+          <p class="slide-label">Chapter 11 — Badge Protocol</p>
           <h2 class="slide-heading">The 9 Verification Badges System</h2>
         </div>
-        <div class="glass-card hover-magnify">
-          <span class="badge badge-scholarly" style="margin-bottom:.4rem;">Methodology Protocol</span>
-          <h3>Isnad & Textual Integrity</h3>
-          <p style="font-size:.92rem; color:var(--text-muted); margin-top:.4rem;">
-            Every single entry in Nishaniyaan is evaluated against classical Hadith science rules (*Mustalah al-Hadith*). Unverified, weak, or fabricated reports are strictly isolated.
-          </p>
+        <div class="grid-3">
+          <div class="glass-card hover-magnify"><span class="badge badge-quran">🟢 Authentic (Qur'an)</span><p style="font-size:.82rem; color:var(--text-muted); margin-top:.3rem;">Explicit divine revelation.</p></div>
+          <div class="glass-card hover-magnify"><span class="badge badge-sahih">🟢 Sahih Hadith</span><p style="font-size:.82rem; color:var(--text-muted); margin-top:.3rem;">Authentic chain in Bukhari/Muslim.</p></div>
+          <div class="glass-card hover-magnify"><span class="badge badge-hasan">🟡 Hasan</span><p style="font-size:.82rem; color:var(--text-muted); margin-top:.3rem;">Acceptable transmission.</p></div>
+          <div class="glass-card hover-magnify"><span class="badge badge-daif">🟠 Da'if (Weak)</span><p style="font-size:.82rem; color:var(--text-muted); margin-top:.3rem;">Deficient chain noted.</p></div>
+          <div class="glass-card hover-magnify"><span class="badge badge-mawdu">🔴 Mawdu' (Fabricated)</span><p style="font-size:.82rem; color:var(--text-muted); margin-top:.3rem;">Rejected fabrications.</p></div>
+          <div class="glass-card hover-magnify"><span class="badge badge-scholarly">⚪ Scholarly Opinion</span><p style="font-size:.82rem; color:var(--text-muted); margin-top:.3rem;">Classical exegesis.</p></div>
+          <div class="glass-card hover-magnify"><span class="badge badge-historical">🔵 Historical Record</span><p style="font-size:.82rem; color:var(--text-muted); margin-top:.3rem;">Documented events.</p></div>
+          <div class="glass-card hover-magnify"><span class="badge badge-observation">🟣 Observation</span><p style="font-size:.82rem; color:var(--text-muted); margin-top:.3rem;">Contemporary trends.</p></div>
+          <div class="glass-card hover-magnify"><span class="badge badge-unverified">⚫ Unverified</span><p style="font-size:.82rem; color:var(--text-muted); margin-top:.3rem;">Quarantined rumors.</p></div>
         </div>
       </div>
     </section>
 
-    <!-- Slide 3: Scholarly Differences -->
+    <!-- Slide 3: Sources & References -->
     <section class="slide" data-slide="3">
       <div class="slide-inner">
         <div class="slide-header">
-          <p class="slide-label">Chapter 11 — Exegesis</p>
-          <h2 class="slide-heading">Handling Scholarly Differences (*Ikhtilaf*)</h2>
+          <p class="slide-label">Chapter 11 — References</p>
+          <h2 class="slide-heading">Primary & Secondary Source Authorities</h2>
         </div>
-        <div class="glass-card hover-magnify">
-          <h4 style="color:var(--accent-gold); margin-bottom:.3rem;">Respecting Classical Consensus</h4>
-          <p style="font-size:.88rem; color:var(--text-muted);">
-            Where classical commentators held differing views regarding sign order or metaphoric vs literal meanings, all respected opinions (Ibn Kathir, Al-Qurtubi, Ibn Hajar) are presented side-by-side.
-          </p>
+        <div class="grid-2">
+          <div class="glass-card hover-magnify">
+            <h4 style="color:var(--accent-gold); margin-bottom:.3rem;">Primary Canonical Sources</h4>
+            <ul style="padding-left:1.2rem; color:var(--text-muted); font-size:.84rem; display:flex; flex-direction:column; gap:.2rem;">
+              <li>Al-Qur'an al-Kareem (Mutawatir)</li>
+              <li>Sahih al-Bukhari & Sahih Muslim</li>
+              <li>Sunan Abi Dawud, Tirmidhi, Ibn Majah</li>
+              <li>Musnad Imam Ahmad ibn Hanbal</li>
+            </ul>
+          </div>
+          <div class="glass-card hover-magnify">
+            <h4 style="color:var(--accent-blue); margin-bottom:.3rem;">Secondary Classical Commentaries</h4>
+            <ul style="padding-left:1.2rem; color:var(--text-muted); font-size:.84rem; display:flex; flex-direction:column; gap:.2rem;">
+              <li>Tafsir Ibn Kathir & Tafsir al-Tabari</li>
+              <li>Fath al-Bari (Ibn Hajar al-Asqalani)</li>
+              <li>Sharh Sahih Muslim (Imam an-Nawawi)</li>
+              <li>Al-Tadhkirah (Imam al-Qurtubi)</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Slide 4: FAQ -->
+    <!-- Slide 4: Scholarly Differences -->
     <section class="slide" data-slide="4">
       <div class="slide-inner">
         <div class="slide-header">
-          <p class="slide-label">Chapter 11 — Clarifications</p>
-          <h2 class="slide-heading">Frequently Asked Questions (FAQ)</h2>
+          <p class="slide-label">Chapter 11 — Ikhtilaf</p>
+          <h2 class="slide-heading">Handling Scholarly Differences (*Ikhtilaf*)</h2>
         </div>
         <div class="glass-card hover-magnify">
-          <h4 style="color:var(--accent-blue); margin-bottom:.3rem;">Q: Can we specify an exact year for Dajjal or Qiyamah?</h4>
-          <p style="font-size:.88rem; color:var(--text-muted);">
-            <strong>A: Absolutely not.</strong> The Prophet ﷺ stated that the exact timing of the Hour is known only to Allah. Specifying calendar dates is a hallmark of fabricated claims.
+          <span class="badge badge-scholarly" style="margin-bottom:.4rem;">⚪ Scholarly Consensus Protocol</span>
+          <p style="font-size:.92rem; color:var(--text-muted); margin-top:.4rem;">
+            Where classical Hadith commentators held differing opinions regarding the exact chronological sequence of major signs or metaphoric vs literal meanings, both respected scholarly views are presented side-by-side without dogmatic force.
           </p>
         </div>
       </div>
@@ -93,14 +121,14 @@
     <section class="slide" data-slide="5">
       <div class="slide-inner">
         <div class="slide-header">
-          <p class="slide-label">Chapter 11 — Warning Archive</p>
-          <h2 class="slide-heading">Unverified Claims Quarantine Archive</h2>
+          <p class="slide-label">Chapter 11 — Quarantine Protocol</p>
+          <h2 class="slide-heading">Unverified Claims Quarantine Protocol</h2>
         </div>
         <div class="glass-card glass-card--warning">
-          <span class="badge badge-unverified" style="margin-bottom:.4rem;">Quarantine Warning</span>
-          <h3 style="color:var(--danger);">Debunked Rumors & Weak Reports</h3>
+          <span class="badge badge-unverified" style="margin-bottom:.4rem;">⚫ Quarantine Archive</span>
+          <h3 style="color:var(--danger);">Isolating Viral Fabrications</h3>
           <p style="font-size:.88rem; color:var(--text-muted); margin-top:.4rem;">
-            Contains viral social media rumors, unconfirmed apocalyptic predictions, and fabricated narrations archived to protect users against misinformation.
+            Reports lacking authentic Isnad chains, specific calendar date predictions for the Mahdi, or fabricated apocalyptic rumors are assigned black warning badges and quarantined to protect readers against error.
           </p>
         </div>
       </div>
