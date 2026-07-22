@@ -2,18 +2,18 @@
 
 current:
   phase: production
-  focus: ai-architecture
-  active_task: T000 (Build AI-First Repository Architecture)
+  focus: 8-chapter-rebuild
+  active_task: T-03 (8-chapter restructuring)
   last_updated: 2026-01-23
 
-chapters_complete: 12
-slides_total: 72
+chapters_complete: 8
+slides_total: 55
 content_populated: true
 ui_complete: true
 deployed: true
 
 next_steps:
-  - Add more content & infographics
+  - Expand media & infographics
   - Add search functionality
 
 open_issues: []

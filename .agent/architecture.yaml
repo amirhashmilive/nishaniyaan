@@ -2,8 +2,8 @@
 
 structure:
   pages:
-    - index.html (homepage & timeline overview)
-    - chapter-01.html through chapter-12.html
+    - index.html (homepage & 7-phase timeline overview)
+    - chapter-01.html through chapter-08.html
 
   assets:
     css:

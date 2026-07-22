@@ -19,7 +19,7 @@ tech_stack:
   libraries:
     - Chart.js
     - Font Awesome
-    - Google Fonts (Inter)
+    - Google Fonts (Inter, Outfit, Amiri)
   hosting:
     - GitHub Pages
     - Cloudflare (custom domain)
@@ -31,20 +31,16 @@ architecture:
   theme: dark/light toggle
 
 chapters:
-  total: 12
+  total: 8
   structure:
-    - 01: Introduction & Overview (3 slides)
-    - 02: Phase 1 - Before Dajjal (9 slides)
-    - 03: Phase 2 - Just Before Dajjal (8 slides)
-    - 04: Phase 3 - The 439 Days of Dajjal (10 slides) ⭐ MAIN
-    - 05: Phase 4 - Arrival of Imam Mahdi (5 slides)
-    - 06: Phase 5 - Descent of Isa AS (6 slides)
-    - 07: Phase 6 - After Death of Dajjal (5 slides)
-    - 08: Phase 7 - After Dajjal to Qiyamah (5 slides)
-    - 09: Qur'anic Foundations (6 slides)
-    - 10: Authentic Hadith Collections (6 slides)
-    - 11: Research & Methodology (5 slides)
-    - 12: Bibliography & Appendices (4 slides)
+    - 01: Introduction (6 slides)
+    - 02: Phase 1: Before Dajjal (9 slides)
+    - 03: Phase 2: Just Before Dajjal (8 slides)
+    - 04: Phase 3: The 439 Days of Dajjal (10 slides) ⭐ MAIN
+    - 05: Phase 4: Imam Mahdi (5 slides)
+    - 06: Phase 5: Isa AS Descent (6 slides)
+    - 07: Phase 6: After Dajjal (5 slides)
+    - 08: Phase 7: To Qiyamah + Bibliography (6 slides)
 
 verification_badges:
   - 🟢 Authentic (Qur'an)
