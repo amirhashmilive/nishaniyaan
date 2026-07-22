@@ -1,0 +1,35 @@
+[
+  {
+    "id": "BOOK-001",
+    "title": "Al-Tadhkirah bi-Ahwal al-Mawta wa-Amr al-Akhirah",
+    "author": "Imam Abu Abdillah Al-Qurtubi (d. 671 AH)",
+    "description": "Masterpiece classical compendium detailing the soul's journey, death, minor signs, major signs, and the Resurrection.",
+    "language": "Arabic",
+    "type": "classical",
+    "downloadUrl": "#",
+    "references": ["SIGN-MAJ-001", "SIGN-MAJ-004"],
+    "coverImage": "assets/images/books/tadhkirah.jpg"
+  },
+  {
+    "id": "BOOK-002",
+    "title": "Al-Bidayah wan-Nihayah (Kitab al-Fitan wal-Malahim)",
+    "author": "Hafiz Ibn Kathir (d. 774 AH)",
+    "description": "Comprehensive historical and eschatological work covering creation to the end of time.",
+    "language": "Arabic / English",
+    "type": "classical",
+    "downloadUrl": "#",
+    "references": ["SIGN-MIN-001", "SIGN-MAJ-003"],
+    "coverImage": "assets/images/books/bidayah.jpg"
+  },
+  {
+    "id": "BOOK-003",
+    "title": "Ashrat as-Sa'ah (Signs of the Hour)",
+    "author": "Dr. Yusuf ibn Abdallah al-Wabil",
+    "description": "Widely acclaimed contemporary academic study scrutinizing minor and major signs by authentic Hadith standards.",
+    "language": "Arabic / English / Urdu",
+    "type": "academic",
+    "downloadUrl": "#",
+    "references": ["SIGN-MIN-024", "SIGN-MIN-045"],
+    "coverImage": "assets/images/books/wabil.jpg"
+  }
+]

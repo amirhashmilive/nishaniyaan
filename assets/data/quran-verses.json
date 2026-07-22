@@ -1,0 +1,202 @@
+[
+  {
+    "id": "QURAN-SURAH-075-001",
+    "surah": 75,
+    "surahName": "Al-Qiyamah",
+    "ayah": 1,
+    "arabic": "لَا أُقْسِمُ بِيَوْمِ الْقِيَامَةِ ﴿١﴾ وَلَا أُقْسِمُ بِالنَّفْسِ اللَّوَّامَةِ ﴿٢﴾",
+    "translation": "I swear by the Day of Resurrection, and I swear by the self-reproaching soul...",
+    "transliteration": "La uqsimu bi-yawmil-qiyamah. Wa la uqsimu bin-nafsil-lawwamah.",
+    "tafsir": [
+      {
+        "scholar": "Ibn Kathir",
+        "text": "Allah swears by the Day of Judgment to emphasize its absolute reality and certainty."
+      }
+    ],
+    "connectionToQiyamah": "Direct oath swearing by the day of universal resurrection.",
+    "relatedSigns": ["SIGN-MAJ-010"],
+    "relatedHadith": [
+      { "collection": "Sahih Bukhari", "number": 4935 }
+    ]
+  },
+  {
+    "id": "QURAN-SURAH-099-001",
+    "surah": 99,
+    "surahName": "Al-Zalzalah",
+    "ayah": 1,
+    "arabic": "إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا ﴿١﴾ وَأَخْرَجَتِ الْأَرْضُ أَثْقَالَهَا ﴿٢﴾",
+    "translation": "When the earth is shaken with its ultimate convulsion, and the earth discharges its burdens...",
+    "transliteration": "Idha zulzilatil-ardu zilzalaha. Wa akhrajatil-ardu athqalaha.",
+    "tafsir": [
+      {
+        "scholar": "Al-Qurtubi",
+        "text": "The cataclysmic final earthquake of Qiyamah wherein the earth expels all buried bodies and treasures."
+      }
+    ],
+    "connectionToQiyamah": "Describes the physical cataclysm at the opening of Resurrection.",
+    "relatedSigns": ["SIGN-MIN-030", "SIGN-MAJ-007"],
+    "relatedHadith": [
+      { "collection": "Sahih Bukhari", "number": 1036 }
+    ]
+  },
+  {
+    "id": "QURAN-SURAH-101-001",
+    "surah": 101,
+    "surahName": "Al-Qariah",
+    "ayah": 1,
+    "arabic": "الْقَارِعَةُ ﴿١﴾ مَا الْقَارِعَةُ ﴿٢﴾ وَمَا أَدْرَاكَ مَا الْقَARِعَةُ ﴿٣﴾ يَوْمَ يَكُونُ النَّاسُ كَالْفَرَاشِ الْمَبْثُوثِ ﴿٤﴾",
+    "translation": "The Striking Hour! What is the Striking Hour? And what will make you realize what the Striking Hour is? A Day when mankind will be like moths scattered about...",
+    "transliteration": "Al-Qariah. Mal-qariah. Wa ma adraka mal-qariah. Yawma yakunun-nasu kal-farashil-mabthuth.",
+    "tafsir": [
+      {
+        "scholar": "Ibn Kathir",
+        "text": "Al-Qariah is one of the names of Qiyamah because it strikes the hearts of humanity with terror."
+      }
+    ],
+    "connectionToQiyamah": "Depicts human bewilderment and chaos on the Day of Resurrection.",
+    "relatedSigns": ["SIGN-MAJ-010"],
+    "relatedHadith": [
+      { "collection": "Sahih Muslim", "number": 2901 }
+    ]
+  },
+  {
+    "id": "QURAN-SURAH-081-001",
+    "surah": 81,
+    "surahName": "Al-Takwir",
+    "ayah": 1,
+    "arabic": "إِذَا الشَّمْسُ كُوِّرَتْ ﴿١﴾ وَإِذَا النُّجُومُ انكَدَرَتْ ﴿٢﴾ وَإِذَا الْجِبَالُ سُيِّرَتْ ﴿٣﴾",
+    "translation": "When the sun is wrapped up [in darkness], when the stars fall dispersing, and when the mountains are removed...",
+    "transliteration": "Idhash-shamsu kuwwirat. Wa idhan-nujumunkadarat. Wa idhal-jibalu suyyirat.",
+    "tafsir": [
+      {
+        "scholar": "Al-Tabari",
+        "text": "Describes the dismantling of the solar and cosmic system on Qiyamah."
+      }
+    ],
+    "connectionToQiyamah": "Cosmic breakdown preceding resurrection.",
+    "relatedSigns": ["SIGN-MAJ-008"],
+    "relatedHadith": [
+      { "collection": "Jami at-Tirmidhi", "number": 3333 }
+    ]
+  },
+  {
+    "id": "QURAN-SURAH-082-001",
+    "surah": 82,
+    "surahName": "Al-Infitar",
+    "ayah": 1,
+    "arabic": "إِذَا السَّمَاءُ انفَطَرَتْ ﴿١﴾ وَإِذَا الْكَوَاكِبُ انتَثَرَتْ ﴿٢﴾ وَإِذَا الْبِحَارُ فُجِّرَتْ ﴿٣﴾",
+    "translation": "When the sky breaks apart, when the planets fall scattering, and when the seas are erupted...",
+    "transliteration": "Idhas-sama'unfatarat. Wa idhal-kawakibuntatharat. Wa idhal-biharu fujjirat.",
+    "tafsir": [
+      {
+        "scholar": "Ibn Kathir",
+        "text": "The atmosphere splits open and oceans overflow when cosmic gravity collapses."
+      }
+    ],
+    "connectionToQiyamah": "Physical destruction of heavens and earth.",
+    "relatedSigns": ["SIGN-MAJ-008"],
+    "relatedHadith": [
+      { "collection": "Sunan Abu Dawud", "number": 4252 }
+    ]
+  },
+  {
+    "id": "QURAN-SURAH-084-001",
+    "surah": 84,
+    "surahName": "Al-Inshiqaq",
+    "ayah": 1,
+    "arabic": "إِذَا السَّمَاءُ انشَقَّتْ ﴿١﴾ وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ ﴿٢﴾ وَإِذَا الْأَرْضُ مُدَّتْ ﴿٣﴾",
+    "translation": "When the sky has split open and listened to its Lord as it must, and when the earth has been extended...",
+    "transliteration": "Idhas-sama'unshaqqat. Wa adhinat li-Rabbiha wa huqqat. Wa idhal-ardu muddat.",
+    "tafsir": [
+      {
+        "scholar": "Al-Qurtubi",
+        "text": "The earth is flattened and stretched out like leather to accommodate all resurrected creation."
+      }
+    ],
+    "connectionToQiyamah": "Preparation of the Earth for the Great Gathering (Al-Mahshar).",
+    "relatedSigns": ["SIGN-MAJ-009"],
+    "relatedHadith": [
+      { "collection": "Sahih Muslim", "number": 2941 }
+    ]
+  },
+  {
+    "id": "QURAN-SURAH-069-001",
+    "surah": 69,
+    "surahName": "Al-Haqqah",
+    "ayah": 1,
+    "arabic": "الْحَاقَّۃُ ﴿١﴾ مَا الْحَاقَّۃُ ﴿٢﴾ وَمَا أَدْرَاكَ مَا الْحَاقَّۃُ ﴿٣﴾",
+    "translation": "The Inevitable Reality! What is the Inevitable Reality? And what will make you realize what the Inevitable Reality is?",
+    "transliteration": "Al-Haqqah. Mal-haqqah. Wa ma adraka mal-haqqah.",
+    "tafsir": [
+      {
+        "scholar": "Ibn Kathir",
+        "text": "Named Al-Haqqah because on this day all promises, rewards, and punishments become absolute reality."
+      }
+    ],
+    "connectionToQiyamah": "Refers to the inescapable truth of divine Judgement.",
+    "relatedSigns": ["SIGN-MAJ-010"],
+    "relatedHadith": [
+      { "collection": "Sahih Bukhari", "number": 4936 }
+    ]
+  },
+  {
+    "id": "QURAN-SURAH-070-001",
+    "surah": 70,
+    "surahName": "Al-Ma'arij",
+    "ayah": 1,
+    "arabic": "سَأَلَ سَائِلٌ بِعَذَابٍ وَاقِعٍ ﴿١﴾ لِّلْكَافِرِينَ لَيْسَ لَهُ دَافِعٌ ﴿٢﴾",
+    "translation": "A questioner asked concerning a punishment bound to occur—for the disbelievers, which none can avert...",
+    "transliteration": "Sa'ala sa'ilun bi-'adhabin waqi'. Lil-kafirina laysa lahu dafi'.",
+    "tafsir": [
+      {
+        "scholar": "Al-Tabari",
+        "text": "Refers to Al-Nadr ibn al-Harith who mockingly asked for punishment, which is guaranteed on Qiyamah."
+      }
+    ],
+    "connectionToQiyamah": "Guaranteed divine accountability.",
+    "relatedSigns": ["SIGN-MAJ-009"],
+    "relatedHadith": [
+      { "collection": "Sahih Muslim", "number": 2901 }
+    ]
+  },
+  {
+    "id": "QURAN-SURAH-044-010",
+    "surah": 44,
+    "surahName": "Ad-Dukhan",
+    "ayah": 10,
+    "arabic": "فَارْتَقِبْ يَوْمَ تَأْتِي السَّمَاءُ بِدُخَانٍ مُّبِينٍ ﴿١٠﴾ يَغْشَى النَّاسَ هَٰذَا عَذَابٌ أَلِيمٌ ﴿١١﴾",
+    "translation": "Then watch for the Day when the sky will bring a visible smoke, covering the people; this is a painful torment...",
+    "transliteration": "Fartaqib yawma ta'tis-sama'u bi-dukhanim-mubin. Yaghshan-nasa hadha 'adhabun alim.",
+    "tafsir": [
+      {
+        "scholar": "Ibn Kathir",
+        "text": "Describes Major Sign #05 (The Smoke) which will engulf humanity prior to Qiyamah."
+      }
+    ],
+    "connectionToQiyamah": "Direct reference to one of the 10 Major Signs.",
+    "relatedSigns": ["SIGN-MAJ-005"],
+    "relatedHadith": [
+      { "collection": "Sahih Muslim", "number": 2901 }
+    ]
+  },
+  {
+    "id": "QURAN-SURAH-027-082",
+    "surah": 27,
+    "surahName": "An-Naml",
+    "ayah": 82,
+    "arabic": "وَإِذَا وَقَعَ الْقَوْلُ عَلَيْهِمْ أَخْرَجْنَا لَهُمْ دَابَّةً مِّنَ الْأَرْضِ تُكَلِّمُهُمْ أَنَّ النَّاسَ كَانُوا بِآيَاتِنَا لَا يُوقِنُونَ",
+    "translation": "And when the word falls upon them, We will bring forth for them a creature from the earth speaking to them, that mankind were not of Our verses certain.",
+    "transliteration": "Wa idha waqa'al-qawlu 'alayhim akhrajna lahum dabbatam-minal-ardi tukallimuhum...",
+    "tafsir": [
+      {
+        "scholar": "Al-Qurtubi",
+        "text": "Direct Qur'anic confirmation of Major Sign #06 (The Beast of the Earth)."
+      }
+    ],
+    "connectionToQiyamah": "Emergence of the Beast as a major end-times sign.",
+    "relatedSigns": ["SIGN-MAJ-006"],
+    "relatedHadith": [
+      { "collection": "Sahih Muslim", "number": 2941 }
+    ]
+  }
+]

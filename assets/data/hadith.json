@@ -1,0 +1,162 @@
+[
+  {
+    "id": "HADITH-BUKHARI-4936",
+    "collection": "Sahih Bukhari",
+    "number": 4936,
+    "arabic": "بُعِثْتُ أَنَا وَالسَّاعَةَ كَهَاتَيْنِ",
+    "translation": "I have been sent and the Hour is like these two (holding up index and middle fingers together).",
+    "authenticity": "sahih",
+    "grading": "Authentic (Muttafaq Alayh - Agreed Upon)",
+    "scholarComments": [
+      { "scholar": "Ibn Hajar", "comment": "Illustrates that no other prophet will come between Prophet Muhammad ﷺ and Qiyamah." }
+    ],
+    "timelinePosition": "Prophetic Era / Opening Sign",
+    "relatedQuran": [{ "surah": 54, "ayah": 1 }],
+    "relatedSigns": ["SIGN-MIN-001"],
+    "explanation": "The Prophet ﷺ compared his advent to the proximity of the index and middle fingers."
+  },
+  {
+    "id": "HADITH-MUSLIM-2937",
+    "collection": "Sahih Muslim",
+    "number": 2937,
+    "arabic": "مَا بَيْنَ خَلْقِ آدَمَ إِلَى قِيَامِ السَّاعَةِ خَلْقٌ أَكْبَرُ مِنَ الدَّجَّالِ",
+    "translation": "There is no creation between the creation of Adam and the onset of the Hour greater than Dajjal.",
+    "authenticity": "sahih",
+    "grading": "Sahih Muslim",
+    "scholarComments": [
+      { "scholar": "An-Nawawi", "comment": "Refers to the magnitude of trial, illusion, and deception associated with Dajjal." }
+    ],
+    "timelinePosition": "Upcoming Major Signs",
+    "relatedQuran": [],
+    "relatedSigns": ["SIGN-MAJ-001"],
+    "explanation": "Highlights the supreme spiritual trial represented by Al-Masih ad-Dajjal."
+  },
+  {
+    "id": "HADITH-BUKHARI-5590",
+    "collection": "Sahih Bukhari",
+    "number": 5590,
+    "arabic": "لَيَكُونَنَّ مِنْ أُمَّتِي أَقْوَامٌ يَسْتَحِلُّونَ الْحِرَ وَالْحَرِيرَ وَالْخَمْرَ وَالْمَعَازِفَ",
+    "translation": "There will be people among my Ummah who will consider permissible adultery, silk for men, intoxicants, and musical instruments...",
+    "authenticity": "sahih",
+    "grading": "Sahih Bukhari",
+    "scholarComments": [
+      { "scholar": "Ibn Taymiyyah", "comment": "Emphasizes the moral hazard of attempting to make forbidden matters permissible under new labels." }
+    ],
+    "timelinePosition": "Present Era",
+    "relatedQuran": [],
+    "relatedSigns": ["SIGN-MIN-010"],
+    "explanation": "Prophecy warning against societal normalization of prohibited acts."
+  },
+  {
+    "id": "HADITH-TIRMIDHI-2332",
+    "collection": "Jami at-Tirmidhi",
+    "number": 2332,
+    "arabic": "لا تقوم الساعة حتى يتقارب الزمان فتكون السنة كالشهور والشهر كالجمعة",
+    "translation": "The Hour will not be established until time passes rapidly, such that a year is like a month and a month like a week...",
+    "authenticity": "sahih",
+    "grading": "Sahih (Al-Albani)",
+    "scholarComments": [
+      { "scholar": "Al-Albani", "comment": "Graded Sahih in Silsilat al-Ahadith as-Sahihah #1841." }
+    ],
+    "timelinePosition": "Present Era",
+    "relatedQuran": [],
+    "relatedSigns": ["SIGN-MIN-024"],
+    "explanation": "Foretells both loss of spiritual blessing in time and modern speed of communications."
+  },
+  {
+    "id": "HADITH-MUSLIM-0008",
+    "collection": "Sahih Muslim",
+    "number": 8,
+    "arabic": "وَأَنْ تَرَى الْحُفَاةَ الْعُرَاةَ الْعَالَةَ رِعَاءَ الشَّاءِ يَتَطَاوَلُونَ فِي الْبُنْيَانِ",
+    "translation": "And when you see the barefoot, naked, destitute shepherds competing in constructing lofty buildings...",
+    "authenticity": "sahih",
+    "grading": "Sahih (Hadith Jibril)",
+    "scholarComments": [
+      { "scholar": "An-Nawawi", "comment": "Key indicator in Hadith Jibril regarding socio-economic transformation in Arabia." }
+    ],
+    "timelinePosition": "Present Era",
+    "relatedQuran": [],
+    "relatedSigns": ["SIGN-MIN-045"],
+    "explanation": "Famous portion of Hadith Jibril detailing minor signs of Qiyamah."
+  },
+  {
+    "id": "HADITH-MUSLIM-0157",
+    "collection": "Sahih Muslim",
+    "number": 157,
+    "arabic": "لا تقوم الساعة حتى تعود أرض العرب مروجاً وأنهاراً",
+    "translation": "The Hour will not be established until the land of Arabia returns to meadows and rivers.",
+    "authenticity": "sahih",
+    "grading": "Sahih Muslim",
+    "scholarComments": [
+      { "scholar": "Ibn Rajab", "comment": "Indicates geological revertment of Arabia to lush greenery." }
+    ],
+    "timelinePosition": "Present Era",
+    "relatedQuran": [],
+    "relatedSigns": ["SIGN-MIN-050"],
+    "explanation": "Environmental transformation of the Arabian desert prior to Qiyamah."
+  },
+  {
+    "id": "HADITH-ABUDAWUD-4282",
+    "collection": "Sunan Abu Dawud",
+    "number": 4282,
+    "arabic": "الْمَهْدِيُّ مِنِّي، جَلِيُّ الْجَبْهَةِ، أَقْنَى الأَنْفِ، يَمْلأُ الأَرْضَ قِسْطًا وَعَدْلاً",
+    "translation": "The Mahdi is from me, with a broad forehead and hooked nose. He will fill the earth with fairness and justice...",
+    "authenticity": "sahih",
+    "grading": "Sahih (Al-Albani)",
+    "scholarComments": [
+      { "scholar": "Al-Albani", "comment": "Graded Sahih in Sahih Sunan Abi Dawud." }
+    ],
+    "timelinePosition": "Upcoming Major Signs",
+    "relatedQuran": [],
+    "relatedSigns": ["SIGN-MAJ-002"],
+    "explanation": "Physical description and mission of Imam Al-Mahdi."
+  },
+  {
+    "id": "HADITH-BUKHARI-3448",
+    "collection": "Sahih Bukhari",
+    "number": 3448,
+    "arabic": "وَالَّذِي نَفْسِي بِيَدِهِ لَيُوشِكَنَّ أَنْ يَنْزِلَ فِيكُمُ ابْنُ مَرْيَمَ حَكَمًا عَدْلاً",
+    "translation": "By Him in Whose Hand is my soul, the son of Maryam will soon descend among you as a just ruler...",
+    "authenticity": "sahih",
+    "grading": "Sahih Bukhari",
+    "scholarComments": [
+      { "scholar": "Ibn Kathir", "comment": "Affirms the physical descent of Jesus (AS) before Qiyamah." }
+    ],
+    "timelinePosition": "Upcoming Major Signs",
+    "relatedQuran": [{ "surah": 43, "ayah": 61 }],
+    "relatedSigns": ["SIGN-MAJ-003"],
+    "explanation": "Details the return of Prophet Isa (AS) and his ruling with Islamic law."
+  },
+  {
+    "id": "HADITH-MUSLIM-2901",
+    "collection": "Sahih Muslim",
+    "number": 2901,
+    "arabic": "إنها لن تقوم حتى ترون قبلها عشر آيات: الدخان، والدجال، والدابة، وطلوع الشمس من مغربها...",
+    "translation": "The Hour will not come until you see ten signs before it: The Smoke, Dajjal, The Beast, Sun rising from West...",
+    "authenticity": "sahih",
+    "grading": "Sahih Muslim (Hadith Hudhayfah ibn Asid)",
+    "scholarComments": [
+      { "scholar": "Al-Qurtubi", "comment": "Master hadith enumerating the 10 Major Signs of Qiyamah." }
+    ],
+    "timelinePosition": "Upcoming Major Signs",
+    "relatedQuran": [],
+    "relatedSigns": ["SIGN-MAJ-001", "SIGN-MAJ-005", "SIGN-MAJ-006", "SIGN-MAJ-008"],
+    "explanation": "Canonical listing of all ten major eschatological events."
+  },
+  {
+    "id": "HADITH-IBNMAJAH-4019",
+    "collection": "Sunan Ibn Majah",
+    "number": 4019,
+    "arabic": "لم تظهر الفاحشة في قوم قط حتى يعلنوا بها إلا فشا فيهم الطاعون والأوجاع...",
+    "translation": "Immorality does not become widespread in a people until they announce it openly, except that plagues and new diseases spread among them...",
+    "authenticity": "hasan",
+    "grading": "Hasan (Al-Albani)",
+    "scholarComments": [
+      { "scholar": "Al-Sindi", "comment": "Links public moral decay to health and ecological crises." }
+    ],
+    "timelinePosition": "Present Era",
+    "relatedQuran": [],
+    "relatedSigns": ["SIGN-MIN-040"],
+    "explanation": "Warns of novel epidemics resulting from open public immorality."
+  }
+]

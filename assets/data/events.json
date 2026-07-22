@@ -1,0 +1,92 @@
+[
+  {
+    "id": "EVT-BADR",
+    "title": "The Battle of Badr (624 CE / 2 AH)",
+    "date": "624 CE (2 AH)",
+    "description": "The decisive clash between the early Muslim community and the pagan Quraish forces, fulfilling early Meccan prophecies of victory for the truth.",
+    "status": "verified",
+    "relatedSigns": ["SIGN-MIN-001"],
+    "scholarlyInterpretation": "Viewed by scholars as a major historical milestone confirming the truth of divine revelation.",
+    "media": [],
+    "references": ["Al-Bidayah wan-Nihayah by Ibn Kathir"]
+  },
+  {
+    "id": "EVT-BAGHDAD-1258",
+    "title": "The Mongol Sack of Baghdad (1258 CE / 656 AH)",
+    "titleArabic": "سقوط بغداد على يد المغول",
+    "date": "1258 CE (656 AH)",
+    "description": "The destruction of the Abbasid Caliphate capital by Hulagu Khan, fulfilling Prophetic narrations regarding the invasion of wide-faced, small-eyed tribes from the East.",
+    "status": "verified",
+    "relatedSigns": ["SIGN-MIN-003"],
+    "scholarlyInterpretation": "Imam Ibn Kathir and Al-Qurtubi documented this as a major fulfillment of Hadith regarding Turks/Mongols.",
+    "media": [],
+    "references": ["Al-Tadhkirah by Al-Qurtubi", "Tarikh Ibn Khaldun"]
+  },
+  {
+    "id": "EVT-FIRE-HIJAZ-1256",
+    "title": "The Great Fire of the Hijaz (1256 CE / 654 AH)",
+    "titleArabic": "نار الحجاز",
+    "date": "1256 CE (654 AH)",
+    "description": "A massive volcanic eruption near Medina that illuminated the night sky across Arabia such that the necks of camels in Busra (Syria) were visible.",
+    "status": "verified",
+    "relatedSigns": ["SIGN-MIN-001"],
+    "scholarlyInterpretation": "Explicitly cited by Imam An-Nawawi as fulfilling Sahih Bukhari Hadith #7118.",
+    "media": [],
+    "references": ["Sharh Sahih Muslim by Imam An-Nawawi"]
+  },
+  {
+    "id": "EVT-CRUSADES",
+    "title": "The Crusades & Liberation of Jerusalem (1096–1291 CE)",
+    "date": "1096–1291 CE",
+    "description": "Centuries of military conflict over the Levant culminating in Salahuddin al-Ayyubi liberating Jerusalem in 1187 CE (583 AH).",
+    "status": "verified",
+    "relatedSigns": ["SIGN-MIN-001"],
+    "scholarlyInterpretation": "Classic demonstration of historical cycles of trials (fitan) and divine assistance.",
+    "media": [],
+    "references": ["Al-Kamil fi al-Tarikh by Ibn al-Athir"]
+  },
+  {
+    "id": "EVT-WWI-WWII",
+    "title": "World War I & World War II (1914–1945)",
+    "date": "1914–1945 CE",
+    "description": "Global industrialized warfare resulting in tens of millions of casualties and the dissolution of traditional imperial caliphates.",
+    "status": "historical",
+    "relatedSigns": ["SIGN-MIN-010"],
+    "scholarlyInterpretation": "Scholars note the fulfillment of widespread loss of life ('Harj') predicted in end-times narrations.",
+    "media": [],
+    "references": ["Ashrat as-Sa'ah by Dr. Yusuf al-Wabil"]
+  },
+  {
+    "id": "EVT-PALESTINE-1948",
+    "title": "Creation of Israel & Displacement of Palestine (1948)",
+    "date": "1948 CE",
+    "description": "Establishment of the state of Israel in Palestine leading to mass displacement and ongoing conflict over Al-Quds.",
+    "status": "historical",
+    "relatedSigns": ["SIGN-MAJ-001", "SIGN-MAJ-003"],
+    "scholarlyInterpretation": "Scholars link the concentration of populations in the Levant to end-times gatherings.",
+    "media": [],
+    "references": ["Fath al-Bari by Ibn Hajar"]
+  },
+  {
+    "id": "EVT-COVID19",
+    "title": "COVID-19 Global Pandemic (2019–2023)",
+    "date": "2019–2023 CE",
+    "description": "Worldwide health emergency resulting in global lockdowns, border closures, and unprecedented suspension of public gatherings.",
+    "status": "contemporary-observation",
+    "relatedSigns": ["SIGN-MIN-040"],
+    "scholarlyInterpretation": "Observed as a manifestation of novel disease outbreaks (Waj') warned against in Prophetic texts.",
+    "media": [],
+    "references": ["Contemporary Fatwa Assemblies"]
+  },
+  {
+    "id": "EVT-TURKEY-QUAKE-2023",
+    "title": "Turkey-Syria Earthquakes (2023)",
+    "date": "2023 CE",
+    "description": "Devastating 7.8 magnitude earthquake striking southern Turkey and northern Syria causing widespread destruction.",
+    "status": "contemporary-observation",
+    "relatedSigns": ["SIGN-MIN-030"],
+    "scholarlyInterpretation": "Reminds humanity of the frequency of earthquakes (Zalazil) preceding the Hour.",
+    "media": [],
+    "references": ["Seismological Reports & Islamic Relief Directives"]
+  }
+]

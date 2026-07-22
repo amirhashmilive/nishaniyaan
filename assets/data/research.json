@@ -1,0 +1,38 @@
+[
+  {
+    "id": "RES-001",
+    "title": "Methodology for Verifying Eschatological Narratives",
+    "author": "Nishaniyaan Research Board",
+    "category": "Methodology",
+    "summary": "Explains why end-times predictions must adhere to strict Isnad validation and why fabricated (Mawdu) or weak (Da'if) narrations cannot be used to declare specific dates for future events.",
+    "sections": [
+      {
+        "heading": "Principles of Textual Authority",
+        "content": "The Qur'an is the supreme criterion. Hadiths must be authenticated by master muhaddithin (such as Bukhari, Muslim, Abu Dawud, Tirmidhi, and Al-Albani)."
+      },
+      {
+        "heading": "Distinction Between Prophecy & Observation",
+        "content": "A contemporary event (e.g. technological shifts) is an observation, not a dogmatic fulfillment unless supported by scholarly consensus."
+      }
+    ]
+  },
+  {
+    "id": "RES-002",
+    "title": "Quarantined Internet Rumors & Fabricated Claims",
+    "author": "Nishaniyaan Research Board",
+    "category": "Unverified Archive",
+    "summary": "Cataloging viral claims that lack authentic Hadith chains or scholarly support.",
+    "unverifiedItems": [
+      {
+        "claim": "Specific Year for Mahdi's Appearance",
+        "verdict": "Fabricated / Speculative",
+        "reasoning": "Determining exact calendar dates contradicts explicit Prophetic statements that knowledge of the Hour's time belongs solely to Allah."
+      },
+      {
+        "claim": "The Sound (Sayhah) in Mid-Ramadan",
+        "verdict": "Weak / Unconfirmed Narrations",
+        "reasoning": "Graded severely weak or fabricated by Ibn al-Jawzi and Al-Aqili."
+      }
+    ]
+  }
+]

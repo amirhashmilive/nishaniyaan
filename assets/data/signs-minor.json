@@ -1,0 +1,305 @@
+[
+  {
+    "id": "SIGN-MIN-001",
+    "title": "Sending and Demise of Prophet Muhammad ﷺ",
+    "titleArabic": "بعثة النبي صلى الله عليه وسلم ووفاته",
+    "category": "Faith & Belief",
+    "description": "The advent of the final Messenger of Allah marks the very first minor sign of the Hour. His passing signified the end of divine revelation.",
+    "descriptionArabic": "بعثة خاتم الأنبياء والمرسلين هي أول علامات الساعة الصغرى، ووفاته تعني انقطاع الوحي السماوي.",
+    "status": "verified",
+    "timelineEra": "past",
+    "quranReferences": [
+      { "surah": 54, "ayah": 1, "text": "اقْتَرَبَتِ السَّاعَةُ وَانشَقَّ الْقَمَرُ" }
+    ],
+    "hadithReferences": [
+      { "collection": "Sahih Bukhari", "number": 4936, "text": "I have been sent and the Hour is like these two (holding up index and middle fingers).", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Ibn Hajar al-Asqalani", "view": "The Prophet's mission is the first sign because no prophet comes after him until Qiyamah." }
+    ],
+    "historicalEvidence": "Occurred during the 7th century CE (11 AH / 632 CE).",
+    "contemporaryObservations": "Historical reality acknowledged by universal Islamic consensus.",
+    "relatedSigns": ["SIGN-MIN-002", "SIGN-MIN-003"],
+    "media": [],
+    "references": [
+      { "title": "Fath al-Bari", "source": "Ibn Hajar al-Asqalani" }
+    ],
+    "faqs": [
+      { "question": "Why is the Prophet's death a sign of Qiyamah?", "answer": "Because he is the seal of the prophets, making his era the final epoch of world history." }
+    ]
+  },
+  {
+    "id": "SIGN-MIN-002",
+    "title": "Loss of Religious Knowledge & Spread of Ignorance",
+    "titleArabic": "رفع العلم وظهور الجهل",
+    "category": "Faith & Belief",
+    "description": "Knowledge will be taken away not by snatching it from hearts, but by the death of true scholars, leaving ignorant leaders to issue misguided decrees.",
+    "descriptionArabic": "يقبض العلم بموت العلماء، حتى إذا لم يبق عالم اتخذ الناس رؤوساً جهالاً فسئلوا فأفتوا بغير علم فضلوا وأضلوا.",
+    "status": "verified",
+    "timelineEra": "present",
+    "quranReferences": [],
+    "hadithReferences": [
+      { "collection": "Sahih Bukhari", "number": 100, "text": "Allah does not take away knowledge by snatching it from the people, but by taking away the scholars...", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Imam An-Nawawi", "view": "Refers to deep spiritual knowledge and genuine scholarly piety, not superficial data collection." }
+    ],
+    "historicalEvidence": "Observed across various eras following the loss of classical erudition.",
+    "contemporaryObservations": "Proliferation of unverified internet opinions and loss of traditional scholarly authority.",
+    "relatedSigns": ["SIGN-MIN-001", "SIGN-MIN-007"],
+    "media": [],
+    "references": [
+      { "title": "Sharh Sahih Muslim", "source": "Imam An-Nawawi" }
+    ],
+    "faqs": [
+      { "question": "Does internet access mean knowledge is increasing?", "answer": "Information is abundant, but genuine spiritual wisdom and qualified scholarly authority have diminished." }
+    ]
+  },
+  {
+    "id": "SIGN-MIN-003",
+    "title": "False Messiahs and Claimants of Prophethood",
+    "titleArabic": "خروج أدعياء النبوة والدجالين",
+    "category": "Faith & Belief",
+    "description": "Around thirty deceivers (dajjalun) will appear before Qiyamah, each falsely claiming to be a prophet of Allah.",
+    "descriptionArabic": "سيَكونُ في أمَّتي كذَّابونَ ثلاثونَ، كلُّهُم يزعمُ أنَّهُ نبيٌّ، وأنا خاتَمُ النبيِّينَ لا نبيَّ بَعدي.",
+    "status": "verified",
+    "timelineEra": "past",
+    "quranReferences": [],
+    "hadithReferences": [
+      { "collection": "Sunan Abu Dawud", "number": 4252, "text": "There will be thirty liars in my nation, each claiming to be a prophet...", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Al-Qurtubi", "view": "Includes Musaylimah, Al-Aswad al-Ansi, Sajah, Mukhtar al-Thaqafi, and modern claimants." }
+    ],
+    "historicalEvidence": "Historical claimants such as Musaylimah al-Khadhab, Tulayha, and 19th/20th century cult leaders.",
+    "contemporaryObservations": "Modern cult leaders asserting divine revelation or prophetic status.",
+    "relatedSigns": ["SIGN-MAJ-001"],
+    "media": [],
+    "references": [
+      { "title": "Al-Tadhkirah", "source": "Al-Qurtubi" }
+    ],
+    "faqs": [
+      { "question": "Is Dajjal one of these thirty?", "answer": "The thirty are lesser deceivers leading up to the Great False Messiah (Al-Masih ad-Dajjal)." }
+    ]
+  },
+  {
+    "id": "SIGN-MIN-010",
+    "title": "Widespread Open Consumption of Intoxicants & Music",
+    "titleArabic": "استحلال الخمر والمعازف",
+    "category": "Morality & Society",
+    "description": "People among the Ummah will consider alcohol, silk for men, adultery, and musical instruments permissible, disguising alcohol under different names.",
+    "descriptionArabic": "ليكونن من أمتي أقوام يستحلون الحر والحرير والخمر والمعازف...",
+    "status": "verified",
+    "timelineEra": "present",
+    "quranReferences": [],
+    "hadithReferences": [
+      { "collection": "Sahih Bukhari", "number": 5590, "text": "There will be people among my Ummah who will consider permissible adultery, silk, alcohol, and musical instruments...", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Ibn Taymiyyah", "view": "Refers to public normalization and legal reclassification of prohibitions." }
+    ],
+    "historicalEvidence": "Documented in various decadent imperial periods.",
+    "contemporaryObservations": "Global commercial normalization of alcohol branding and 24/7 digital music streaming saturation.",
+    "relatedSigns": ["SIGN-MIN-011", "SIGN-MIN-012"],
+    "media": [],
+    "references": [
+      { "title": "Majmu al-Fatawa", "source": "Ibn Taymiyyah" }
+    ],
+    "faqs": [
+      { "question": "What does 'disguising alcohol under other names' mean?", "answer": "Marketing alcoholic drinks under modern trendy labels, cocktails, and deceptive names." }
+    ]
+  },
+  {
+    "id": "SIGN-MIN-011",
+    "title": "Normalisation of Riba (Usury/Interest) & Dishonesty in Trade",
+    "titleArabic": "فشوع الربا والغش في التجارة",
+    "category": "Morality & Society",
+    "description": "A time will come when no person will remain except that they consume interest, or are touched by its dust.",
+    "descriptionArabic": "ليأتين على الناس زمان لا يبقى أحد إلا أكل الربا، فإن لم يأكله أصابه من غباره.",
+    "status": "verified",
+    "timelineEra": "present",
+    "quranReferences": [
+      { "surah": 2, "ayah": 275, "text": "وَأَحَلَّ اللَّهُ الْبَيْعَ وَحَرَّمَ الرِّبَا" }
+    ],
+    "hadithReferences": [
+      { "collection": "Sunan Abu Dawud", "number": 3331, "text": "A time will come when everyone will consume usury, and if one avoids it, its dust will reach them.", "authenticity": "hasan" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Al-Mawardi", "view": "Refers to fractional reserve banking and systemic fiat interest integration." }
+    ],
+    "historicalEvidence": "Expansion of global banking systems in the 19th-21st centuries.",
+    "contemporaryObservations": "Global monetary reliance on interest-bearing central banks and credit structures.",
+    "relatedSigns": ["SIGN-MIN-010"],
+    "media": [],
+    "references": [
+      { "title": "Ahkam al-Quran", "source": "Al-Mawardi" }
+    ],
+    "faqs": [
+      { "question": "Can an individual completely avoid interest today?", "answer": "While difficult due to systemic integration ('dust of riba'), Muslims must strive for Halal finance alternatives." }
+    ]
+  },
+  {
+    "id": "SIGN-MIN-020",
+    "title": "Acceleration of Distance & Telecommunications",
+    "titleArabic": "تقارب الأسواق وتطوي الأرض",
+    "category": "Technology & Knowledge",
+    "description": "Markets will draw close together and physical distances will be rapidly traversed through advanced means of transport and instant messaging.",
+    "descriptionArabic": "لا تقوم الساعة حتى تظهر الفتن، ويكثر الكذب، وتقارب الأسواق...",
+    "status": "contemporary-observation",
+    "timelineEra": "present",
+    "quranReferences": [],
+    "hadithReferences": [
+      { "collection": "Musnad Ahmad", "number": 10782, "text": "The Hour will not be established until markets draw close to one another...", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Contemporary Consensus", "view": "Interpreted by modern scholars as global e-commerce, stock exchanges, and satellite communications." }
+    ],
+    "historicalEvidence": "The invention of the telegraph, internet, and modern aviation.",
+    "contemporaryObservations": "Instant global stock trading, real-time video calls, and instant international shipping.",
+    "relatedSigns": ["SIGN-MIN-024"],
+    "media": [],
+    "references": [
+      { "title": "Musnad Imam Ahmad", "source": "Ahmad ibn Hanbal" }
+    ],
+    "faqs": [
+      { "question": "What does 'markets drawing close' mean?", "answer": "Global market integration where price shifts in one continent instantly impact traders worldwide." }
+    ]
+  },
+  {
+    "id": "SIGN-MIN-024",
+    "title": "The Rapid Passage of Time (Taqarub al-Zaman)",
+    "titleArabic": "تقارب الزمان",
+    "category": "Technology & Knowledge",
+    "description": "Time will seem to pass at an accelerated rate prior to the Hour, such that a year passes like a month and a month like a week.",
+    "descriptionArabic": "لا تقوم الساعة حتى يتقارب الزمان فتكون السنة كالشهور...",
+    "status": "verified",
+    "timelineEra": "present",
+    "quranReferences": [],
+    "hadithReferences": [
+      { "collection": "Jami at-Tirmidhi", "number": 2332, "text": "The Hour will not be established until time passes rapidly, such that a year is like a month...", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Ibn Hajar al-Asqalani", "view": "Both a physical loss of barakah in time and perceptual acceleration due to fast communication." }
+    ],
+    "historicalEvidence": "Observed increasingly in modern fast-paced industrial society.",
+    "contemporaryObservations": "Perceptual acceleration of routine and high-speed digital lifestyle.",
+    "relatedSigns": ["SIGN-MIN-020"],
+    "media": [],
+    "references": [
+      { "title": "Fath al-Bari", "source": "Ibn Hajar al-Asqalani" }
+    ],
+    "faqs": [
+      { "question": "Is this a physical change or psychological?", "answer": "Scholars hold both views: a loss of spiritual blessing (barakah) in time and modern psychological acceleration." }
+    ]
+  },
+  {
+    "id": "SIGN-MIN-030",
+    "title": "Increase in Frequent Earthquakes (Zalazil)",
+    "titleArabic": "كثرة الزلازل",
+    "category": "Natural Disasters",
+    "description": "Earthquakes will become frequent, widespread, and devastating across different regions of the world.",
+    "descriptionArabic": "لا تقوم الساعة حتى يقبض العلم وتكثر الزلازل ويتقارب الزمان...",
+    "status": "verified",
+    "timelineEra": "present",
+    "quranReferences": [
+      { "surah": 99, "ayah": 1, "text": "إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا" }
+    ],
+    "hadithReferences": [
+      { "collection": "Sahih Bukhari", "number": 1036, "text": "The Hour will not be established until knowledge is taken away, earthquakes become frequent...", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Ibn Kathir", "view": "Earthquakes serve as both warnings for reflection and physical precursors to Qiyamah." }
+    ],
+    "historicalEvidence": "Seismological tracking recording thousands of measurable seismic events annually.",
+    "contemporaryObservations": "Recent major seismic catastrophes in Turkey, Syria, Morocco, and the Pacific Ring of Fire.",
+    "relatedSigns": ["SIGN-MAJ-007"],
+    "media": [],
+    "references": [
+      { "title": "Al-Bidayah wan-Nihayah", "source": "Ibn Kathir" }
+    ],
+    "faqs": [
+      { "question": "Does this refer to tectonic earthquakes or major end-times quakes?", "answer": "Includes both an increase in routine seismic frequency and the 3 massive end-times landslides (Khasf)." }
+    ]
+  },
+  {
+    "id": "SIGN-MIN-040",
+    "title": "Widespread Waj' (New Epidemics & Pandemics)",
+    "titleArabic": "ظهور الأمراض والأوجاع الجديدة",
+    "category": "Natural Disasters",
+    "description": "Diseases and plagues will appear that were previously unknown among ancestors when immorality becomes open.",
+    "descriptionArabic": "لم تظهر الفاحشة في قوم قط حتى يعلنوا بها إلا فشا فيهم الطاعون والأوجاع التي لم تكن مضت في أسلافهم...",
+    "status": "verified",
+    "timelineEra": "present",
+    "quranReferences": [],
+    "hadithReferences": [
+      { "collection": "Sunan Ibn Majah", "number": 4019, "text": "Immorality does not become widespread in a people until they announce it openly, except that plagues and new diseases spread among them...", "authenticity": "hasan" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Al-Sindi", "view": "Refers to novel pathogens resulting from moral decay and ecological disruption." }
+    ],
+    "historicalEvidence": "Outbreaks of Black Death, Spanish Flu, HIV/AIDS, and COVID-19.",
+    "contemporaryObservations": "Novel zoonotic virus outbreaks and global pandemic emergencies.",
+    "relatedSigns": ["SIGN-MIN-010"],
+    "media": [],
+    "references": [
+      { "title": "Hashiyat Ibn Majah", "source": "Al-Sindi" }
+    ],
+    "faqs": [
+      { "question": "How are pandemics connected to moral shifts?", "answer": "The Hadith links public open immorality with ecological/health consequences as divine warnings." }
+    ]
+  },
+  {
+    "id": "SIGN-MIN-045",
+    "title": "Competition in Building Lofty Towers",
+    "titleArabic": "تطاول الحفاة العراة في البنيان",
+    "category": "Technology & Knowledge",
+    "description": "Destitute, barefoot, nomadic shepherds will compete with one another in erecting tall skyscraper buildings.",
+    "descriptionArabic": "وأن ترى الحفاة العراة العالة رعاء الشاء يتطاولون في البنيان...",
+    "status": "verified",
+    "timelineEra": "present",
+    "quranReferences": [],
+    "hadithReferences": [
+      { "collection": "Sahih Muslim", "number": 8, "text": "When you see the barefoot, naked, destitute shepherds competing in constructing lofty buildings...", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Al-Nawawi", "view": "Refers to nomadic desert dwellers rapidly gaining wealth and competing in architectural height." }
+    ],
+    "historicalEvidence": "The rapid 20th-century transformation of the Arabian Peninsula into a hub of world-record skyscrapers.",
+    "contemporaryObservations": "Burj Khalifa, Jeddah Tower, and Gulf architectural height competitions.",
+    "relatedSigns": ["SIGN-MIN-011"],
+    "media": [],
+    "references": [
+      { "title": "Sharh Sahih Muslim", "source": "Imam An-Nawawi" }
+    ],
+    "faqs": [
+      { "question": "Who are the 'barefoot shepherds' in the Hadith?", "answer": "Refers to the Bedouin tribes of Arabia whose descendants transitioned from tents to ultra-modern towers." }
+    ]
+  },
+  {
+    "id": "SIGN-MIN-050",
+    "title": "The Land of Arabia Returning to Meadows and Rivers",
+    "titleArabic": "عود أرض العرب مروجاً وأنهاراً",
+    "category": "Environmental",
+    "description": "The arid desert land of Arabia will not see Qiyamah until it transforms into green meadows, gardens, and flowing rivers.",
+    "descriptionArabic": "لا تقوم الساعة حتى تعود أرض العرب مروجاً وأنهاراً...",
+    "status": "verified",
+    "timelineEra": "present",
+    "quranReferences": [],
+    "hadithReferences": [
+      { "collection": "Sahih Muslim", "number": 157, "text": "The Hour will not be established until wealth becomes abundant and the land of Arabia returns to meadows and rivers.", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Ibn Rajab al-Hanbali", "view": "The word 'return' (ta'ud) indicates Arabia was historically green in ancient times and will revert prior to the end." }
+    ],
+    "historicalEvidence": "Geological studies confirming ancient lush river networks in the Arabian Peninsula during the Pleistocene epoch.",
+    "contemporaryObservations": "Greening of desert regions in Saudi Arabia, dam projects, and recent unusual rainfall patterns.",
+    "relatedSigns": ["SIGN-MIN-030"],
+    "media": [],
+    "references": [
+      { "title": "Jami al-Ulum wal-Hikam", "source": "Ibn Rajab" }
+    ],
+    "faqs": [
+      { "question": "Does geological history confirm Arabia was green?", "answer": "Yes, satellite imagery and paleoclimate data prove Arabia possessed lakes and river systems thousands of years ago." }
+    ]
+  }
+]

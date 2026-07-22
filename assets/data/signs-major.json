@@ -1,0 +1,284 @@
+[
+  {
+    "id": "SIGN-MAJ-001",
+    "title": "Al-Masih ad-Dajjal (The False Messiah)",
+    "titleArabic": "المسيح الدجال",
+    "category": "Major Signs",
+    "description": "The greatest tribulation from Creation to Qiyamah. A one-eyed deceiver who will claim divinity, perform supernatural feats, and lead many astray until defeated by Isa (AS).",
+    "descriptionArabic": "أعظم فتنة على وجه الأرض منذ خلق آدم إلى قيام الساعة، رجل أعور يدعي الألوهية ويأتي بخوارق، يقتله عيسى عليه السلام.",
+    "status": "verified",
+    "timelineEra": "future",
+    "quranReferences": [],
+    "hadithReferences": [
+      { "collection": "Sahih Muslim", "number": 2937, "text": "There is no creation between the creation of Adam and the onset of the Hour greater than Dajjal.", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Ibn Kathir", "view": "Dajjal is a literal human testing humanity's faith, permitted by Allah to show miraculous deceptions." }
+    ],
+    "historicalEvidence": "Warned against by every prophet from Nuh (AS) to Prophet Muhammad ﷺ.",
+    "contemporaryObservations": "Modern systems of illusion, spiritual blindness, and materialist deceptions serving as precursors.",
+    "relatedSigns": ["SIGN-MAJ-002", "SIGN-MAJ-003"],
+    "media": [],
+    "references": [
+      { "title": "Al-Bidayah wan-Nihayah", "source": "Ibn Kathir" }
+    ],
+    "faqs": [
+      { "question": "How can a believer protect themselves from Dajjal?", "answer": "By reciting the first 10 verses of Surah Al-Kahf, seeking refuge in Tashahhud, and maintaining strong Tawheed." }
+    ]
+  },
+  {
+    "id": "SIGN-MAJ-002",
+    "title": "Imam Al-Mahdi (The Guided Leader)",
+    "titleArabic": "الإمام المهدي",
+    "category": "Major Signs",
+    "description": "A righteous leader from the lineage of Prophet Muhammad ﷺ (via Fatimah) who will fill the earth with justice and fairness after it was filled with oppression.",
+    "descriptionArabic": "رجل من أهل بيت النبي صلى الله عليه وسلم من ولد فاطمة، يملأ الأرض قسطاً وعدلاً كما ملئت جوراً وظلماً.",
+    "status": "verified",
+    "timelineEra": "future",
+    "quranReferences": [],
+    "hadithReferences": [
+      { "collection": "Sunan Abu Dawud", "number": 4282, "text": "The Mahdi is from my lineage, from the descendants of Fatimah...", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Al-Albani", "view": "Narrations regarding the Mahdi reach mutawatir (concurrent transmission) status in meaning." }
+    ],
+    "historicalEvidence": "Many historical impostors claimed this title, but the true Mahdi will be given allegiance at the Ka'bah without seeking it.",
+    "contemporaryObservations": "Universal longing for justice amidst widespread systemic oppression.",
+    "relatedSigns": ["SIGN-MAJ-001", "SIGN-MAJ-003"],
+    "media": [],
+    "references": [
+      { "title": "Silsilat al-Ahadith as-Sahihah", "source": "Al-Albani" }
+    ],
+    "faqs": [
+      { "question": "Where will the Mahdi emerge?", "answer": "He will emerge from Medina and receive allegiance at the Holy Ka'bah in Mecca." }
+    ]
+  },
+  {
+    "id": "SIGN-MAJ-003",
+    "title": "Descent of Prophet Isa (Jesus) bin Maryam (AS)",
+    "titleArabic": "نزول عيسى ابن مريم عليه السلام",
+    "category": "Major Signs",
+    "description": "Prophet Isa (AS) will descend at the white minaret east of Damascus, kill Dajjal at the Gate of Ludd, break the cross, abolish the Jizyah, and rule with the Qur'an.",
+    "descriptionArabic": "ينزل عيسى عليه السلام عند المنارة البيضاء شرقي دمشق، فيقتل الدجال عند باب لد ويحكم بشريعة الإسلام.",
+    "status": "verified",
+    "timelineEra": "future",
+    "quranReferences": [
+      { "surah": 43, "ayah": 61, "text": "وَإِنَّهُ لَعِلْمٌ لِّلسَّاعَةِ فَلَا تَمْتَرُنَّ بِهَا" }
+    ],
+    "hadithReferences": [
+      { "collection": "Sahih Bukhari", "number": 3448, "text": "By Him in Whose Hand is my soul, the son of Maryam will soon descend among you as a just judge...", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Ibn Kathir", "view": "The descent of Isa (AS) is explicitly affirmed in both Mutawatir Hadith and Qur'anic exegesis." }
+    ],
+    "historicalEvidence": "The white minaret of the Umayyad Mosque in Damascus stands as a historical reference point.",
+    "contemporaryObservations": "Expectation shared across Islamic eschatological scholarship.",
+    "relatedSigns": ["SIGN-MAJ-001", "SIGN-MAJ-004"],
+    "media": [],
+    "references": [
+      { "title": "Tafsir Ibn Kathir", "source": "Ibn Kathir" }
+    ],
+    "faqs": [
+      { "question": "Where will Isa (AS) defeat Dajjal?", "answer": "At the Gate of Ludd (Lod in Palestine)." }
+    ]
+  },
+  {
+    "id": "SIGN-MAJ-004",
+    "title": "Emergence of Yajuj and Majuj (Gog and Magog)",
+    "titleArabic": "خروج يأجوج ومأجوج",
+    "category": "Major Signs",
+    "description": "Vast tribes currently restrained behind the barrier built by Dhul-Qarnayn who will break through and swarm down from every elevation, consuming all water in their path.",
+    "descriptionArabic": "أمتان عظيمتان مفسدتان في الأرض، يخرجون بعد قتل الدجال فيعيثون في الأرض فساداً حتى يهلكهم الله بدعاء عيسى.",
+    "status": "verified",
+    "timelineEra": "future",
+    "quranReferences": [
+      { "surah": 21, "ayah": 96, "text": "حَتَّىٰ إِذَا فُتِحَتْ يَأْجُوجُ وَمَأْجُوجُ وَهُم مِّن كُلِّ حَدَبٍ يَنسِلُونَ" }
+    ],
+    "hadithReferences": [
+      { "collection": "Sahih Muslim", "number": 2937, "text": "Allah will reveal to Isa: I have brought forth servants of Mine whom no one has the power to fight...", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Al-Qurtubi", "view": "They will be destroyed by divine intervention through parasite worms (Naghaf) after Isa (AS) prays to Allah." }
+    ],
+    "historicalEvidence": "Mentioned in Surah Al-Kahf (9:93-98) regarding the wall built of iron and copper by Dhul-Qarnayn.",
+    "contemporaryObservations": "Symbolizes overwhelming destructive masses.",
+    "relatedSigns": ["SIGN-MAJ-003"],
+    "media": [],
+    "references": [
+      { "title": "Al-Jami li-Ahkam al-Quran", "source": "Al-Qurtubi" }
+    ],
+    "faqs": [
+      { "question": "How will Yajuj and Majuj be defeated?", "answer": "Not by human armies, but by Allah sending parasitic worms to strike their necks after Prophet Isa (AS) supplicates." }
+    ]
+  },
+  {
+    "id": "SIGN-MAJ-005",
+    "title": "The Great Smoke (Ad-Dukhan)",
+    "titleArabic": "الدخان المبين",
+    "category": "Major Signs",
+    "description": "A dense haze/smoke will cover the entire earth for forty days, causing believers a light cold-like sickness while severely tormenting disbelievers.",
+    "descriptionArabic": "دخان يملأ الأرض، يصيب المؤمن كالزكام، وينفخ الكافر حتى يخرج من كل مسمع منه.",
+    "status": "verified",
+    "timelineEra": "future",
+    "quranReferences": [
+      { "surah": 44, "ayah": 10, "text": "فَارْتَقِبْ يَوْمَ تَأْتِي السَّمَاءُ بِدُخَانٍ مُّبِينٍ" }
+    ],
+    "hadithReferences": [
+      { "collection": "Sahih Muslim", "number": 2901, "text": "The Hour will not be established until you see ten signs... and he mentioned the Smoke...", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Ibn Mas'ud & Ibn Abbas", "view": "Scholars noted two smoke events: one partial during the Quraish famine, and the major global end-times Smoke." }
+    ],
+    "historicalEvidence": "Documented in Surah Ad-Dukhan.",
+    "contemporaryObservations": "Visualized as global atmospheric disruption.",
+    "relatedSigns": ["SIGN-MAJ-006"],
+    "media": [],
+    "references": [
+      { "title": "Tafsir Ibn Kathir", "source": "Ibn Kathir" }
+    ],
+    "faqs": [
+      { "question": "How long will the Smoke last?", "answer": "Authentic reports state it will engulf the atmosphere for forty days." }
+    ]
+  },
+  {
+    "id": "SIGN-MAJ-006",
+    "title": "The Beast of the Earth (Dabbat al-Ard)",
+    "titleArabic": "دابة الأرض",
+    "category": "Major Signs",
+    "description": "A miraculous creature emerging from the earth holding the Staff of Musa (AS) and Seal of Sulaiman (AS), marking the faces of believers and disbelievers.",
+    "descriptionArabic": "دابة تخرج فتكلم الناس وتميز المؤمن من الكافر بميسم تضع علامة على الوجوه.",
+    "status": "verified",
+    "timelineEra": "future",
+    "quranReferences": [
+      { "surah": 27, "ayah": 82, "text": "وَإِذَا وَقَعَ الْقَوْلُ عَلَيْهِمْ أَخْرَجْنَا لَهُمْ دَابَّةً مِّنَ الْأَرْضِ تُكَلِّمُهُمْ" }
+    ],
+    "hadithReferences": [
+      { "collection": "Sahih Muslim", "number": 2941, "text": "The Beast will emerge carrying the staff of Moses and the seal ring of Solomon...", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Al-Qurtubi", "view": "The Beast speaks to humanity confirming that people disbelieved in divine signs." }
+    ],
+    "historicalEvidence": "Explicitly declared in Surah An-Naml 27:82.",
+    "contemporaryObservations": "Represents the total clarity between faith and disbelief after repentance closes.",
+    "relatedSigns": ["SIGN-MAJ-008"],
+    "media": [],
+    "references": [
+      { "title": "Al-Tadhkirah", "source": "Al-Qurtubi" }
+    ],
+    "faqs": [
+      { "question": "Will the Beast speak to human beings?", "answer": "Yes, Surah An-Naml explicitly states 'it will speak to them' (tukallimuhum)." }
+    ]
+  },
+  {
+    "id": "SIGN-MAJ-007",
+    "title": "Three Earthquakes / Landslides (Al-Khasufat al-Thalathah)",
+    "titleArabic": "الخسوفات الثلاثة",
+    "category": "Major Signs",
+    "description": "Three colossal earth-swallowing cave-ins (Khasf): one in the East, one in the West, and one in the Arabian Peninsula.",
+    "descriptionArabic": "ثلاثة خسوفات عظيمة: خسف بالمشرق، وخسف بالمغرب، وخسف بجزيرة العرب.",
+    "status": "verified",
+    "timelineEra": "future",
+    "quranReferences": [],
+    "hadithReferences": [
+      { "collection": "Sahih Muslim", "number": 2901, "text": "The Hour will not come until you see ten signs... and three landslides: one in the East, one in the West, and one in Arabia.", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Ibn Hajar al-Asqalani", "view": "These are cataclysmic structural earth collapses far beyond routine tectonic quakes." }
+    ],
+    "historicalEvidence": "Distinguished from minor earthquake warnings.",
+    "contemporaryObservations": "Geological reminders of massive subterranean fault-line vulnerabilities.",
+    "relatedSigns": ["SIGN-MIN-030"],
+    "media": [],
+    "references": [
+      { "title": "Fath al-Bari", "source": "Ibn Hajar" }
+    ],
+    "faqs": [
+      { "question": "Where will the three major landslides take place?", "answer": "One in the East, one in the West, and one specifically in the Arabian Peninsula." }
+    ]
+  },
+  {
+    "id": "SIGN-MAJ-008",
+    "title": "Sun Rising from the West (Tulu' al-Shams min Maghribiha)",
+    "titleArabic": "طلوع الشمس من مغربها",
+    "category": "Major Signs",
+    "description": "The cosmic order reverses and the sun rises from the West. On this day, the door of repentance (Tawbah) is permanently closed forever.",
+    "descriptionArabic": "تطلع الشمس من مغربها، فإذا رآها الناس آمنوا أجمعون، فذلك حين لا ينفع نفساً إيمانها لم تكن آمنت من قبل.",
+    "status": "verified",
+    "timelineEra": "future",
+    "quranReferences": [
+      { "surah": 6, "ayah": 158, "text": "يَوْمَ يَأْتِي بَعْضُ آيَاتِ رَبِّكَ لَا يَنفَعُ نَفْسًا إِيمَانُهَا لَمْ تَكُنْ آمَنَتْ مِن قَبْلُ" }
+    ],
+    "hadithReferences": [
+      { "collection": "Sahih Bukhari", "number": 4635, "text": "The Hour will not be established until the sun rises from the West...", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Imam An-Nawawi", "view": "Repentance is accepted until this sign manifests; once the sun rises from the West, faith is no longer accepted from new believers." }
+    ],
+    "historicalEvidence": "Directly linked to Surah Al-An'am 6:158.",
+    "contemporaryObservations": "Cosmic order reversal.",
+    "relatedSigns": ["SIGN-MAJ-006"],
+    "media": [],
+    "references": [
+      { "title": "Sharh Sahih Muslim", "source": "Imam An-Nawawi" }
+    ],
+    "faqs": [
+      { "question": "Can a person repent after the sun rises from the West?", "answer": "No. Authentic texts explicitly confirm the door of repentance closes permanently at this moment." }
+    ]
+  },
+  {
+    "id": "SIGN-MAJ-009",
+    "title": "The Gathering Fire from Yemen (Nar al-Yaman)",
+    "titleArabic": "نار تخرج من اليمن تطرد الناس إلى محشرهم",
+    "category": "Major Signs",
+    "description": "A massive fire will emerge from the bottom of Aden (Yemen) driving humanity to their place of gathering (Al-Mahshar) in Syria.",
+    "descriptionArabic": "آخر ذلك نار تخرج من قعرة عدن تطرد الناس إلى محشرهم، تقيل معهم حيث قالوا وتبيت معهم حيث باتوا.",
+    "status": "verified",
+    "timelineEra": "future",
+    "quranReferences": [],
+    "hadithReferences": [
+      { "collection": "Sahih Muslim", "number": 2901, "text": "The last of the signs is a fire which will emerge from Yemen and drive people to their place of gathering...", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Ibn Rajab al-Hanbali", "view": "This physical gathering in Sham (Syria) is the final earthly gathering before the Horn blast." }
+    ],
+    "historicalEvidence": "Documented as the 10th major sign in Sahih Muslim.",
+    "contemporaryObservations": "Volcanic rift zones under Aden bay.",
+    "relatedSigns": ["SIGN-MAJ-010"],
+    "media": [],
+    "references": [
+      { "title": "Al-Tadhkirah", "source": "Al-Qurtubi" }
+    ],
+    "faqs": [
+      { "question": "Where will the fire drive the people?", "answer": "It will drive humanity to the land of Sham (Syria) for the final earthly gathering." }
+    ]
+  },
+  {
+    "id": "SIGN-MAJ-010",
+    "title": "The Trumpet Blasts (Nafkhat as-Sur)",
+    "titleArabic": "النفخ في الصور",
+    "category": "Major Signs",
+    "description": "Israfil (AS) blows the Trumpet twice: the first blast causes all in heaven and earth to fall swooning/dead, and the second blast resurrects all creation for Judgement.",
+    "descriptionArabic": "ينفخ إسرائيل في الصور نفختين: الأولى نفخة الصعق فيصعق كل من في السماوات والأرض، والثانية نفخة البعث والقيام لرب العالمين.",
+    "status": "verified",
+    "timelineEra": "future",
+    "quranReferences": [
+      { "surah": 39, "ayah": 68, "text": "وَنُفِخَ فِي الصُّورِ فَصَعِقَ مَن فِي السَّماوَاتِ وَمَن فِي الْأَرْضِ إِلَّا مَن شَاءَ اللَّهُ ثُمَّ نُفِخَ فِيهِ أُخْرَىٰ فَإِذَا هُمْ قِيَامٌ يَنظُرُونَ" }
+    ],
+    "hadithReferences": [
+      { "collection": "Sahih Bukhari", "number": 4935, "text": "Between the two blasts of the Trumpet there will be forty (days/months/years)...", "authenticity": "sahih" }
+    ],
+    "scholarlyOpinions": [
+      { "scholar": "Ibn Kathir", "view": "The Horn blasts signal the final end of earthly existence and the immediate dawn of Resurrection." }
+    ],
+    "historicalEvidence": "Affirmed across all divine books and Quranic Surahs (Al-Zalzalah, Al-Haqqah, Az-Zumar).",
+    "contemporaryObservations": "The ultimate culmination of physical universe existence.",
+    "relatedSigns": ["SIGN-MAJ-009"],
+    "media": [],
+    "references": [
+      { "title": "Tafsir Ibn Kathir", "source": "Ibn Kathir" }
+    ],
+    "faqs": [
+      { "question": "How many blasts of the Trumpet are there?", "answer": "Two primary blasts mentioned in Surah Az-Zumar 39:68: the blast of swooning/death (S'aq) and the blast of resurrection (Ba'th)." }
+    ]
+  }
+]
