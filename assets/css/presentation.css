@@ -374,6 +374,153 @@ a { color: var(--accent-blue); text-decoration:none; }
   .slide-heading { font-size:2rem; }
   .timeline-strip { flex-wrap: wrap; }
 }
+
+/* ── 11. CHRONOLOGICAL TIMELINE COMPONENT ────────────────── */
+.chrono-timeline-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  width: 100%;
+}
+
+.chrono-flow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: var(--bg-glass);
+  border: 1px solid var(--bg-glass-border);
+  border-radius: 18px;
+  padding: 1rem 1.4rem;
+  box-shadow: var(--card-shadow);
+}
+
+.chrono-node {
+  flex: 1;
+  text-align: center;
+  background: rgba(18, 24, 40, 0.4);
+  border: 1px solid var(--bg-glass-border);
+  border-radius: 12px;
+  padding: 10px 12px;
+  transition: all .25s ease;
+}
+
+[data-theme="light"] .chrono-node {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.chrono-node:hover {
+  border-color: var(--accent-blue);
+  transform: translateY(-2px);
+  box-shadow: var(--neon-glow);
+}
+
+.chrono-node-num {
+  font-size: .7rem;
+  font-weight: 800;
+  color: var(--accent-gold);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.chrono-node-title {
+  font-weight: 700;
+  font-size: .92rem;
+  margin-top: 2px;
+}
+
+.chrono-arrow {
+  color: var(--accent-gold);
+  font-size: 1.3rem;
+  font-weight: bold;
+  user-select: none;
+}
+
+.chrono-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+
+.chrono-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.chrono-card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.chrono-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.5rem;
+}
+
+.chrono-list li {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  position: relative;
+  padding-left: 1.2rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.45;
+}
+
+.chrono-list li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--accent-blue);
+  font-size: 0.9rem;
+}
+
+.aftermath-banner {
+  background: rgba(197, 155, 39, 0.08);
+  border: 1px solid rgba(197, 155, 39, 0.25);
+  border-radius: 14px;
+  padding: 0.9rem 1.2rem;
+  text-align: center;
+}
+
+.aftermath-title {
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--accent-gold);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+
+.aftermath-steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.aftermath-step {
+  background: var(--bg-glass);
+  border: 1px solid var(--bg-glass-border);
+  padding: 4px 10px;
+  border-radius: 8px;
+}
+
+.source-attribution {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: 0.2rem;
+  font-style: italic;
+}
+
 @media (max-width:768px) {
   .slide-heading { font-size:1.5rem !important; }
   .grid-2,.grid-3,.grid-4 { display:flex !important; flex-direction:column !important; }
@@ -381,4 +528,9 @@ a { color: var(--accent-blue); text-decoration:none; }
   .ctrl-chapters { font-size:.7rem; }
   .hover-magnify:hover { transform:scale(1.03) !important; }
   .slide { padding:1.5rem; }
+  .chrono-flow { flex-direction: column !important; gap: 8px !important; }
+  .chrono-arrow { transform: rotate(90deg); margin: 2px 0; }
+  .chrono-cards-grid { display: flex !important; flex-direction: column !important; }
+  .aftermath-steps { flex-direction: column !important; gap: 6px !important; }
 }
+
