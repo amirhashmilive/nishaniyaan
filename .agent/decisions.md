@@ -27,3 +27,11 @@
 **Reason**: Immersive presentation experience, zero website navbar distraction
 **Alternatives**: Traditional website layout (rejected)
 **Status**: ✅ Implemented
+
+## 005: Chapter Reordering - Imam Mahdi Before Dajjal
+**Date**: 2026-07-24
+**Decision**: Reorder chapters so Imam Mahdi is Phase 3 (Chapter 04) and The 439 Days of Dajjal is Phase 4 (Chapter 05)
+**Reason**: Matches the authentic chronological sequence of Islamic eschatology (Mahdi appears first during turmoil, Dajjal emerges during Mahdi's era, Isa AS descends to destroy Dajjal)
+**Alternatives**: Keep Dajjal before Mahdi (rejected - chronologically inconsistent)
+**Status**: ✅ Implemented
+

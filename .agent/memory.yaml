@@ -29,6 +29,13 @@ decisions:
     reason: Primary audience, consistent layout
     alternative: Multilingual (future scope)
 
+  - id: 005
+    date: 2026-07-24
+    topic: Structure
+    decision: Reorder chapters - Move Imam Mahdi to Phase 3 (Ch 04) before Dajjal (Phase 4 / Ch 05)
+    reason: Aligns chapters with the authentic chronological sequence of major signs
+    alternative: Keep Dajjal before Mahdi (rejected - chronologically inaccurate)
+
 knowledge:
   - key: dajjal_description
     value: "Defective right eye like swollen grape, K-F-R stamped on forehead"
